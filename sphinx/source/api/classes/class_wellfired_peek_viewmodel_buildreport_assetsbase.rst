@@ -14,6 +14,10 @@ Properties
 -----------
 
 +---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                           |:ref:`RawSizeText<classwellfired_peek_viewmodel_buildreport_assetsbase_1ab17d0f01f48237d72d7dcce28c465109>` **{** get; set; **}**           |
++---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+|List< string >                                                                   |:ref:`SimpleSearch<classwellfired_peek_viewmodel_buildreport_assetsbase_1a5770f1616977bc1bf5747ce26696c3c5>` **{** get; set; **}**          |
++---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 |IList< :ref:`AssetCell<classwellfired_peek_viewmodel_buildreport_assetcell>` >   |:ref:`DisplayedAssetsList<classwellfired_peek_viewmodel_buildreport_assetsbase_1adfd54af58663e76f80fe57bfc8a85629>` **{** get; set; **}**   |
 +---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`FileSize<structwellfired_peek_data_filesize>`                              |:ref:`TotalSize<classwellfired_peek_viewmodel_buildreport_assetsbase_1ae3437aef0c573ed7b7e148d7d73ae598>` **{** get; set; **}**             |
@@ -22,7 +26,7 @@ Properties
 +---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 |string                                                                           |:ref:`ImportedSizeText<classwellfired_peek_viewmodel_buildreport_assetsbase_1a33b0b046ed472ca07569f157e66c53ae>` **{** get; set; **}**      |
 +---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                           |:ref:`RawSizeText<classwellfired_peek_viewmodel_buildreport_assetsbase_1ab17d0f01f48237d72d7dcce28c465109>` **{** get; set; **}**           |
+|Dictionary< string, string >                                                     |:ref:`KeyValueSearch<classwellfired_peek_viewmodel_buildreport_assetsbase_1a0d0027fcd6f30d2462a2d7c47acb00bd>` **{** get; set; **}**        |
 +---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 |string                                                                           |:ref:`PercentageText<classwellfired_peek_viewmodel_buildreport_assetsbase_1a8194e0f522fb0077b4d88440c5f22bd4>` **{** get; set; **}**        |
 +---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
@@ -45,6 +49,14 @@ protected-func
 Breakdown
 ----------
 
+.. _classwellfired_peek_viewmodel_buildreport_assetsbase_1a0d0027fcd6f30d2462a2d7c47acb00bd:
+
+- Dictionary< string, string > **KeyValueSearch** **{** get; set; **}**
+
+.. _classwellfired_peek_viewmodel_buildreport_assetsbase_1ab17d0f01f48237d72d7dcce28c465109:
+
+- string **RawSizeText** **{** get; set; **}**
+
 .. _classwellfired_peek_viewmodel_buildreport_assetsbase_1adfd54af58663e76f80fe57bfc8a85629:
 
 - IList< :ref:`AssetCell<classwellfired_peek_viewmodel_buildreport_assetcell>` > **DisplayedAssetsList** **{** get; set; **}**
@@ -61,9 +73,9 @@ Breakdown
 
 - string **ImportedSizeText** **{** get; set; **}**
 
-.. _classwellfired_peek_viewmodel_buildreport_assetsbase_1ab17d0f01f48237d72d7dcce28c465109:
+.. _classwellfired_peek_viewmodel_buildreport_assetsbase_1a5770f1616977bc1bf5747ce26696c3c5:
 
-- string **RawSizeText** **{** get; set; **}**
+- List< string > **SimpleSearch** **{** get; set; **}**
 
 .. _classwellfired_peek_viewmodel_buildreport_assetsbase_1a8194e0f522fb0077b4d88440c5f22bd4:
 
