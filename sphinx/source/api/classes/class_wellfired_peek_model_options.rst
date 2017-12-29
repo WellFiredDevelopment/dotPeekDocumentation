@@ -28,12 +28,12 @@ Public Properties
 |bool           |:ref:`AutomaticallyShowReportAfterBuild<classwellfired_peek_model_options_1a4c1a71f1fbac17ddad54df735e291468>`    |
 +---------------+------------------------------------------------------------------------------------------------------------------+
 
-Public Static Methods
-----------------------
+Public Methods
+---------------
 
-+----------------------------------------------------+------------------------------------------------------------------------------------------------+
-|:ref:`Options<classwellfired_peek_model_options>`   |:ref:`New<classwellfired_peek_model_options_1ac9e5fc6b534472e5e65b9ed9e8190e20>` **(**  **)**   |
-+----------------------------------------------------+------------------------------------------------------------------------------------------------+
++-------------+----------------------------------------------------------------------------------------------------+
+|             |:ref:`Options<classwellfired_peek_model_options_1acb007cfa380ecd7cc446f9571cfb6a0b>` **(**  **)**   |
++-------------+----------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -54,7 +54,7 @@ Breakdown
 
 - bool **AutomaticallyShowReportAfterBuild** 
 
-.. _classwellfired_peek_model_options_1ac9e5fc6b534472e5e65b9ed9e8190e20:
+.. _classwellfired_peek_model_options_1acb007cfa380ecd7cc446f9571cfb6a0b:
 
-- :ref:`Options<classwellfired_peek_model_options>` **New** **(**  **)**
+-  **Options** **(**  **)**
 

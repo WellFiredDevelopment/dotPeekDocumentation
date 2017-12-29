@@ -17,6 +17,8 @@ Public Methods
 ---------------
 
 +-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`BuildReportSerializer<classwellfired_peek_generator_storage_buildreportserializer_1a272e4adf47054f8ec333ceff7798a28e>` **(** ISerializer serializer **)**                                                                   |
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |bool         |:ref:`Serialize<classwellfired_peek_generator_storage_buildreportserializer_1adc6e1909f43653a37234093301359d5f>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, out string serializedReport **)**   |
 +-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |bool         |:ref:`Deserialize<classwellfired_peek_generator_storage_buildreportserializer_1a9eace737db52d2fcfd634c6b35ed1765>` **(** string data, out :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**             |
@@ -24,6 +26,10 @@ Public Methods
 
 Breakdown
 ----------
+
+.. _classwellfired_peek_generator_storage_buildreportserializer_1a272e4adf47054f8ec333ceff7798a28e:
+
+-  **BuildReportSerializer** **(** ISerializer serializer **)**
 
 .. _classwellfired_peek_generator_storage_buildreportserializer_1adc6e1909f43653a37234093301359d5f:
 

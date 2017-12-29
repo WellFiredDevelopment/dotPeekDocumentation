@@ -21,12 +21,12 @@ Public Properties
 |string         |:ref:`RelativeBuildReportPath<classwellfired_peek_model_projectinfo_1af1721efad6fc12155c480cf720d65735>`    |
 +---------------+------------------------------------------------------------------------------------------------------------+
 
-public-static-attrib
----------------------
+Public Methods
+---------------
 
-+------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|:ref:`ProjectInfo<classwellfired_peek_model_projectinfo>`   |:ref:`New<classwellfired_peek_model_projectinfo_1a2f5c12c1725b335e700bb5e38bdfbf49>`    |
-+------------------------------------------------------------+----------------------------------------------------------------------------------------+
++-------------+------------------------------------------------------------------------------------------------------------+
+|             |:ref:`ProjectInfo<classwellfired_peek_model_projectinfo_1a6d15f1c0caa3d877e5b1705580fa2687>` **(**  **)**   |
++-------------+------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -43,7 +43,7 @@ Breakdown
 
 - string **RelativeBuildReportPath** 
 
-.. _classwellfired_peek_model_projectinfo_1a2f5c12c1725b335e700bb5e38bdfbf49:
+.. _classwellfired_peek_model_projectinfo_1a6d15f1c0caa3d877e5b1705580fa2687:
 
-- :ref:`ProjectInfo<classwellfired_peek_model_projectinfo>` **New** 
+-  **ProjectInfo** **(**  **)**
 
