@@ -10,20 +10,6 @@ Description
 
 
 
-public-static-attrib
----------------------
-
-+-----------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
-|new readonly :ref:`CustomStreamReader<classwellfired_peek_generator_buildreportgeneration_utils_customstreamreader>`   |:ref:`Null<classwellfired_peek_generator_buildreportgeneration_utils_customstreamreader_1aaacfa4e283280906523d31021122417c>`    |
-+-----------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
-
-package-attrib
----------------
-
-+-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-|const int    |:ref:`DefaultBufferSize<classwellfired_peek_generator_buildreportgeneration_utils_customstreamreader_1a26f1d16eaee311baa520c706243f09bc>`    |
-+-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-
 Properties
 -----------
 
@@ -88,14 +74,6 @@ protected-func
 
 Breakdown
 ----------
-
-.. _classwellfired_peek_generator_buildreportgeneration_utils_customstreamreader_1aaacfa4e283280906523d31021122417c:
-
-- new readonly :ref:`CustomStreamReader<classwellfired_peek_generator_buildreportgeneration_utils_customstreamreader>` **Null** 
-
-.. _classwellfired_peek_generator_buildreportgeneration_utils_customstreamreader_1a26f1d16eaee311baa520c706243f09bc:
-
-- const int **DefaultBufferSize** 
 
 .. _classwellfired_peek_generator_buildreportgeneration_utils_customstreamreader_1ab74d1873fb07a877a10e790a3aa4f834:
 

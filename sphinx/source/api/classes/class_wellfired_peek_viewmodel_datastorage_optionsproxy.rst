@@ -18,6 +18,8 @@ Properties
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |bool         |:ref:`AutomaticallyShowReportAfterBuild<classwellfired_peek_viewmodel_datastorage_optionsproxy_1a47730217d1e790769dbc4098f16983f3>` **{** get; set; **}**   |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`BuildReportToOpenOnLaunch<classwellfired_peek_viewmodel_datastorage_optionsproxy_1a4f8072cc434bd36aee047934e667877f>` **{** get; set; **}**           |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -29,4 +31,8 @@ Breakdown
 .. _classwellfired_peek_viewmodel_datastorage_optionsproxy_1a47730217d1e790769dbc4098f16983f3:
 
 - bool **AutomaticallyShowReportAfterBuild** **{** get; set; **}**
+
+.. _classwellfired_peek_viewmodel_datastorage_optionsproxy_1a4f8072cc434bd36aee047934e667877f:
+
+- string **BuildReportToOpenOnLaunch** **{** get; set; **}**
 

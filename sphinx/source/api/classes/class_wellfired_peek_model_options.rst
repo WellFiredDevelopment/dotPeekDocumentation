@@ -13,9 +13,9 @@ Description
 public-static-attrib
 ---------------------
 
-+------------------+--------------------------------------------------------------------------------------------+
-|readonly string   |:ref:`DefaultPath<classwellfired_peek_model_options_1aeb6fa265566d5b849b50e9d6cece5f63>`    |
-+------------------+--------------------------------------------------------------------------------------------+
++------------------+-------------------------------------------------------------------------------------------------------+
+|readonly string   |:ref:`DefaultBuildReportPath<classwellfired_peek_model_options_1a62c335f0194a17e58eae16d0fd511dd4>`    |
++------------------+-------------------------------------------------------------------------------------------------------+
 
 Public Properties
 ------------------
@@ -26,6 +26,8 @@ Public Properties
 |string         |:ref:`BuildReportPath<classwellfired_peek_model_options_1ada52c048829379886449b9c39d67e28a>`                      |
 +---------------+------------------------------------------------------------------------------------------------------------------+
 |bool           |:ref:`AutomaticallyShowReportAfterBuild<classwellfired_peek_model_options_1a4c1a71f1fbac17ddad54df735e291468>`    |
++---------------+------------------------------------------------------------------------------------------------------------------+
+|string         |:ref:`BuildReportToOpenOnLaunch<classwellfired_peek_model_options_1afc100610a46523df527454a1ffdbd60b>`            |
 +---------------+------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
@@ -38,9 +40,9 @@ Public Methods
 Breakdown
 ----------
 
-.. _classwellfired_peek_model_options_1aeb6fa265566d5b849b50e9d6cece5f63:
+.. _classwellfired_peek_model_options_1a62c335f0194a17e58eae16d0fd511dd4:
 
-- readonly string **DefaultPath** 
+- readonly string **DefaultBuildReportPath** 
 
 .. _classwellfired_peek_model_options_1ad522c10e3d0a2e13353725162e5db2fc:
 
@@ -53,6 +55,10 @@ Breakdown
 .. _classwellfired_peek_model_options_1a4c1a71f1fbac17ddad54df735e291468:
 
 - bool **AutomaticallyShowReportAfterBuild** 
+
+.. _classwellfired_peek_model_options_1afc100610a46523df527454a1ffdbd60b:
+
+- string **BuildReportToOpenOnLaunch** 
 
 .. _classwellfired_peek_model_options_1acb007cfa380ecd7cc446f9571cfb6a0b:
 

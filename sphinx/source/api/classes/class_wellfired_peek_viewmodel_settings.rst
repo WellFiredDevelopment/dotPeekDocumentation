@@ -37,11 +37,11 @@ Properties
 Public Methods
 ---------------
 
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`Settings<classwellfired_peek_viewmodel_settings_1a8c0398a0e20665550976129af6fa2066>` **(** IPlatformProvider platformProvider, :ref:`Storage<classwellfired_peek_viewmodel_datastorage_storage>` storage **)**   |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`LoadOptions<classwellfired_peek_viewmodel_settings_1ad0793cdb7542ed20b9dc7800eeb3ad76>` **(**  **)**                                                                                                             |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`Settings<classwellfired_peek_viewmodel_settings_1ad93fcc8164902c07830d84b574460828>` **(** IPlatformProvider platformProvider, :ref:`IStorage<interfacewellfired_peek_viewmodel_datastorage_istorage>` storage **)**   |
++-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`LoadOptions<classwellfired_peek_viewmodel_settings_1ad0793cdb7542ed20b9dc7800eeb3ad76>` **(**  **)**                                                                                                                   |
++-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -74,9 +74,9 @@ Breakdown
 
 - Command **LostFocus** **{** get; set; **}**
 
-.. _classwellfired_peek_viewmodel_settings_1a8c0398a0e20665550976129af6fa2066:
+.. _classwellfired_peek_viewmodel_settings_1ad93fcc8164902c07830d84b574460828:
 
--  **Settings** **(** IPlatformProvider platformProvider, :ref:`Storage<classwellfired_peek_viewmodel_datastorage_storage>` storage **)**
+-  **Settings** **(** IPlatformProvider platformProvider, :ref:`IStorage<interfacewellfired_peek_viewmodel_datastorage_istorage>` storage **)**
 
 .. _classwellfired_peek_viewmodel_settings_1ad0793cdb7542ed20b9dc7800eeb3ad76:
 

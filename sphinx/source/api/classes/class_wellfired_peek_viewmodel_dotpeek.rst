@@ -29,6 +29,8 @@ Properties
 +----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
 |ObservableBase                                                                                            |:ref:`DetailSource<classwellfired_peek_viewmodel_dotpeek_1a306ca103465b70b07302f28ec9b82a64>` **{** get; set; **}**          |
 +----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
+|Command                                                                                                   |:ref:`WindowCloseCommand<classwellfired_peek_viewmodel_dotpeek_1a9949d79a6285e56c09dad6acbfa5d3dc>` **{** get; set; **}**    |
++----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
 |Command                                                                                                   |:ref:`OpenSettingsCommand<classwellfired_peek_viewmodel_dotpeek_1afe3a514f643e6bfaa63735d190c6f0ef>` **{** get; set; **}**   |
 +----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
 |:ref:`Settings<classwellfired_peek_viewmodel_settings>`                                                   |:ref:`Settings<classwellfired_peek_viewmodel_dotpeek_1a62cc0b914371c2dd22c2acbccb6bda8e>` **{** get; set; **}**              |
@@ -37,6 +39,10 @@ Properties
 Public Methods
 ---------------
 
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`DotPeek<classwellfired_peek_viewmodel_dotpeek_1a4f310d01d356bacccd6c7605b5748d54>` **(**  **)**                                                                                           |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`DotPeek<classwellfired_peek_viewmodel_dotpeek_1ab752e4f787c534b59c4e049380a4797e>` **(** :ref:`IStorage<interfacewellfired_peek_viewmodel_datastorage_istorage>` storage **)**            |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |void         |:ref:`Inject<classwellfired_peek_viewmodel_dotpeek_1a73d0b71e88113cbc5258069dd04c6a63>` **(** ILogger logger, INotifyPropertyChanged persistentData, IPlatformProvider platformProvider **)**   |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -76,6 +82,10 @@ Breakdown
 
 - ObservableBase **DetailSource** **{** get; set; **}**
 
+.. _classwellfired_peek_viewmodel_dotpeek_1a9949d79a6285e56c09dad6acbfa5d3dc:
+
+- Command **WindowCloseCommand** **{** get; set; **}**
+
 .. _classwellfired_peek_viewmodel_dotpeek_1afe3a514f643e6bfaa63735d190c6f0ef:
 
 - Command **OpenSettingsCommand** **{** get; set; **}**
@@ -83,6 +93,14 @@ Breakdown
 .. _classwellfired_peek_viewmodel_dotpeek_1a62cc0b914371c2dd22c2acbccb6bda8e:
 
 - :ref:`Settings<classwellfired_peek_viewmodel_settings>` **Settings** **{** get; set; **}**
+
+.. _classwellfired_peek_viewmodel_dotpeek_1a4f310d01d356bacccd6c7605b5748d54:
+
+-  **DotPeek** **(**  **)**
+
+.. _classwellfired_peek_viewmodel_dotpeek_1ab752e4f787c534b59c4e049380a4797e:
+
+-  **DotPeek** **(** :ref:`IStorage<interfacewellfired_peek_viewmodel_datastorage_istorage>` storage **)**
 
 .. _classwellfired_peek_viewmodel_dotpeek_1a73d0b71e88113cbc5258069dd04c6a63:
 
