@@ -13,14 +13,14 @@ Description
 Public Methods
 ---------------
 
-+---------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Task< bool >   |:ref:`ParseAndInjectIn<interfacewellfired_peek_generator_buildreportgeneration_parsers_ibuildlogparser_1a3f290c04afb958829764a32d9c8cdafe>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**   |
-+---------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+|Task< :ref:`BuildReport<classwellfired_peek_model_buildreport>` >   |:ref:`Parse<interfacewellfired_peek_generator_buildreportgeneration_parsers_ibuildlogparser_1a281a982636c12e7c3167cf6540841052>` **(**  **)**   |
++--------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _interfacewellfired_peek_generator_buildreportgeneration_parsers_ibuildlogparser_1a3f290c04afb958829764a32d9c8cdafe:
+.. _interfacewellfired_peek_generator_buildreportgeneration_parsers_ibuildlogparser_1a281a982636c12e7c3167cf6540841052:
 
-- Task< bool > **ParseAndInjectIn** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**
+- Task< :ref:`BuildReport<classwellfired_peek_model_buildreport>` > **Parse** **(**  **)**
 
