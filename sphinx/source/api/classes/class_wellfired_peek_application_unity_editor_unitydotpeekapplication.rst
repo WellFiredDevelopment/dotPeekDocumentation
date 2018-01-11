@@ -16,15 +16,15 @@ Description
 Properties
 -----------
 
-+--------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IBuildReportStorage<interfacewellfired_peek_generator_storage_ibuildreportstorage>`                     |:ref:`BuildReportStorage<classwellfired_peek_application_unity_editor_unitydotpeekapplication_1a06a36c9cbe033b060317662610008aea>` **{** get; set; **}**     |
-+--------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IPlatformTools<interfacewellfired_peek_generator_platformtools_iplatformtools>`                         |:ref:`PlatformTools<classwellfired_peek_application_unity_editor_unitydotpeekapplication_1a4ddc9d77c17b50b02e54f3707af069e5>` **{** get; set; **}**          |
-+--------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IBuildReportGenerator<interfacewellfired_peek_generator_buildreportgeneration_ibuildreportgenerator>`   |:ref:`BuildReportGenerator<classwellfired_peek_application_unity_editor_unitydotpeekapplication_1acb61e436daab8a515e3aea93261e47fa>` **{** get; set; **}**   |
-+--------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IStorage<interfacewellfired_peek_viewmodel_datastorage_istorage>`                                       |:ref:`Storage<classwellfired_peek_application_unity_editor_unitydotpeekapplication_1acd0ca3dba2aea1c78c734f0ef59ee102>` **{** get; set; **}**                |
-+--------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IBuildReportStorage<interfacewellfired_peek_generator_storage_ibuildreportstorage>`   |:ref:`BuildReportStorage<classwellfired_peek_application_unity_editor_unitydotpeekapplication_1a06a36c9cbe033b060317662610008aea>` **{** get; set; **}**     |
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IPlatformTools<interfacewellfired_peek_generator_platformtools_iplatformtools>`       |:ref:`PlatformTools<classwellfired_peek_application_unity_editor_unitydotpeekapplication_1a4ddc9d77c17b50b02e54f3707af069e5>` **{** get; set; **}**          |
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IBuildReportGenerator<interfacewellfired_peek_generator_ibuildreportgenerator>`       |:ref:`BuildReportGenerator<classwellfired_peek_application_unity_editor_unitydotpeekapplication_1acb61e436daab8a515e3aea93261e47fa>` **{** get; set; **}**   |
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IStorage<interfacewellfired_peek_viewmodel_datastorage_istorage>`                     |:ref:`Storage<classwellfired_peek_application_unity_editor_unitydotpeekapplication_1acd0ca3dba2aea1c78c734f0ef59ee102>` **{** get; set; **}**                |
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -55,7 +55,7 @@ Breakdown
 
 .. _classwellfired_peek_application_unity_editor_unitydotpeekapplication_1acb61e436daab8a515e3aea93261e47fa:
 
-- :ref:`IBuildReportGenerator<interfacewellfired_peek_generator_buildreportgeneration_ibuildreportgenerator>` **BuildReportGenerator** **{** get; set; **}**
+- :ref:`IBuildReportGenerator<interfacewellfired_peek_generator_ibuildreportgenerator>` **BuildReportGenerator** **{** get; set; **}**
 
 .. _classwellfired_peek_application_unity_editor_unitydotpeekapplication_1acd0ca3dba2aea1c78c734f0ef59ee102:
 

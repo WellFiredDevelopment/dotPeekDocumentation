@@ -13,13 +13,13 @@ Description
 Properties
 -----------
 
-+--------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`OptionsProxy<classwellfired_peek_viewmodel_datastorage_optionsproxy>`           |:ref:`Options<interfacewellfired_peek_viewmodel_datastorage_istorage_1ac70dd46d04ae94e5d1eda5332c9e9dab>` **{** get; set; **}**                  |
-+--------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`ProjectInfoProxy<classwellfired_peek_viewmodel_datastorage_projectinfoproxy>`   |:ref:`ProjectInfo<interfacewellfired_peek_viewmodel_datastorage_istorage_1a1c596c79f67d59b300372650f20b0b4c>` **{** get; set; **}**              |
-+--------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                |:ref:`BuildReportsRootedPath<interfacewellfired_peek_viewmodel_datastorage_istorage_1acb4c31de0d95b7b679d17998e6c025a0>` **{** get; set; **}**   |
-+--------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`OptionsProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy>`           |:ref:`Options<interfacewellfired_peek_viewmodel_datastorage_istorage_1ac70dd46d04ae94e5d1eda5332c9e9dab>` **{** get; set; **}**                  |
++--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`ProjectInfoProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_projectinfoproxy>`   |:ref:`ProjectInfo<interfacewellfired_peek_viewmodel_datastorage_istorage_1a1c596c79f67d59b300372650f20b0b4c>` **{** get; set; **}**              |
++--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                            |:ref:`BuildReportsRootedPath<interfacewellfired_peek_viewmodel_datastorage_istorage_1acb4c31de0d95b7b679d17998e6c025a0>` **{** get; set; **}**   |
++--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -35,11 +35,11 @@ Breakdown
 
 .. _interfacewellfired_peek_viewmodel_datastorage_istorage_1ac70dd46d04ae94e5d1eda5332c9e9dab:
 
-- :ref:`OptionsProxy<classwellfired_peek_viewmodel_datastorage_optionsproxy>` **Options** **{** get; set; **}**
+- :ref:`OptionsProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy>` **Options** **{** get; set; **}**
 
 .. _interfacewellfired_peek_viewmodel_datastorage_istorage_1a1c596c79f67d59b300372650f20b0b4c:
 
-- :ref:`ProjectInfoProxy<classwellfired_peek_viewmodel_datastorage_projectinfoproxy>` **ProjectInfo** **{** get; set; **}**
+- :ref:`ProjectInfoProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_projectinfoproxy>` **ProjectInfo** **{** get; set; **}**
 
 .. _interfacewellfired_peek_viewmodel_datastorage_istorage_1acb4c31de0d95b7b679d17998e6c025a0:
 

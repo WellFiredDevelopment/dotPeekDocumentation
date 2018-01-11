@@ -55,7 +55,7 @@ Description
 +---------------------------+
 |WindowsStandalone_64       |
 +---------------------------+
-|MacStandaloneUniversal     |
+|StandaloneOSX              |
 +---------------------------+
 |MacStandalone_x86          |
 +---------------------------+
