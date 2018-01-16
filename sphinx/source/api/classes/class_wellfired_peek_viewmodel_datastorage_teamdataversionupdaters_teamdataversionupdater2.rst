@@ -5,9 +5,6 @@ TeamDataVersionUpdater2
 
 **Namespace:** :ref:`WellFired.Peek.ViewModel.DataStorage<namespacewellfired_peek_viewmodel_datastorage>`
 
-**Inherits:** :ref:`WellFired.Peek.ViewModel.DataStorage.TeamDataVersionUpdaters.TeamDataVersionUpdater<classwellfired_peek_viewmodel_datastorage_teamdataversionupdaters_teamdataversionupdater>`
-
-
 Description
 ------------
 

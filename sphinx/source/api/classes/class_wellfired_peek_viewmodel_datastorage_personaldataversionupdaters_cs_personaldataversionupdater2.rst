@@ -5,9 +5,6 @@ PersonalDataVersionUpdater2
 
 **Namespace:** :ref:`WellFired.Peek.ViewModel.DataStorage.PersonalDataVersionUpdaters<namespacewellfired_peek_viewmodel_datastorage_personaldataversionupdaters>`
 
-**Inherits:** :ref:`WellFired.Peek.ViewModel.DataStorage.PersonalDataVersionUpdaters.cs.PersonalDataVersionUpdater<classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater>`
-
-
 Description
 ------------
 
