@@ -26,9 +26,9 @@ Properties
 Public Methods
 ---------------
 
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`Launch<interfacewellfired_peek_application_idotpeekapplication_1a4bfd85e7285c3ec6892a3b94c7ee010f>` **(** string applicationName, string applicationTitle **)**   |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`Launch<interfacewellfired_peek_application_idotpeekapplication_1a40d42ed4c291b49503d8aa782651d3ad>` **(** string companyName, string applicationName, string applicationTitle **)**   |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -49,7 +49,7 @@ Breakdown
 
 - :ref:`IStorage<interfacewellfired_peek_viewmodel_datastorage_istorage>` **Storage** **{** get; set; **}**
 
-.. _interfacewellfired_peek_application_idotpeekapplication_1a4bfd85e7285c3ec6892a3b94c7ee010f:
+.. _interfacewellfired_peek_application_idotpeekapplication_1a40d42ed4c291b49503d8aa782651d3ad:
 
-- void **Launch** **(** string applicationName, string applicationTitle **)**
+- void **Launch** **(** string companyName, string applicationName, string applicationTitle **)**
 

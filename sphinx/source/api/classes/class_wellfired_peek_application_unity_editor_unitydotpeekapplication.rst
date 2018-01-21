@@ -29,11 +29,11 @@ Properties
 Public Methods
 ---------------
 
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`UnityDotPeekApplication<classwellfired_peek_application_unity_editor_unitydotpeekapplication_1ab1ed7e7977b0a7ba141febb483d60297>` **(** BuildTarget buildTarget **)**          |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`Launch<classwellfired_peek_application_unity_editor_unitydotpeekapplication_1a3f9fb9b8e356fc18625ae5305bb88648>` **(** string applicationName, string applicationTitle **)**   |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`UnityDotPeekApplication<classwellfired_peek_application_unity_editor_unitydotpeekapplication_1ab1ed7e7977b0a7ba141febb483d60297>` **(** BuildTarget buildTarget **)**                              |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`Launch<classwellfired_peek_application_unity_editor_unitydotpeekapplication_1af928ea9c81501ecfd2c7483b18a199e1>` **(** string companyName, string applicationName, string applicationTitle **)**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Static Methods
 ----------------------
@@ -65,9 +65,9 @@ Breakdown
 
 -  **UnityDotPeekApplication** **(** BuildTarget buildTarget **)**
 
-.. _classwellfired_peek_application_unity_editor_unitydotpeekapplication_1a3f9fb9b8e356fc18625ae5305bb88648:
+.. _classwellfired_peek_application_unity_editor_unitydotpeekapplication_1af928ea9c81501ecfd2c7483b18a199e1:
 
-- void **Launch** **(** string applicationName, string applicationTitle **)**
+- void **Launch** **(** string companyName, string applicationName, string applicationTitle **)**
 
 .. _classwellfired_peek_application_unity_editor_unitydotpeekapplication_1a4b96a57da42e6b294ca3a1cad36116c3:
 
