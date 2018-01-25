@@ -20,9 +20,11 @@ Properties
 Public Static Methods
 ----------------------
 
-+---------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|IEnumerable< IVersionUpdater >   |:ref:`GetVersionUpdaters<classwellfired_peek_viewmodel_datastorage_teamdataversionupdaters_teamdataversionupdater_1a74a5b24a23e1850385d50e97aa6e4ad1>` **(** IDataStorageService dataStorageService = null **)**   |
-+---------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|IEnumerable< IVersionUpdater >   |:ref:`GetVersionUpdaters<classwellfired_peek_viewmodel_datastorage_teamdataversionupdaters_teamdataversionupdater_1a118971567dc6a44097a9ee9c5d4ef501>` **(** IDataStorageService dataStorageService **)**   |
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|int                              |:ref:`GetLastVersion<classwellfired_peek_viewmodel_datastorage_teamdataversionupdaters_teamdataversionupdater_1ae446d3e44dd6245a5b58a3077bba190b>` **(**  **)**                                             |
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 protected-func
 ---------------
@@ -49,9 +51,13 @@ Breakdown
 
 - abstract int **VersionNo** **{** get; set; **}**
 
-.. _classwellfired_peek_viewmodel_datastorage_teamdataversionupdaters_teamdataversionupdater_1a74a5b24a23e1850385d50e97aa6e4ad1:
+.. _classwellfired_peek_viewmodel_datastorage_teamdataversionupdaters_teamdataversionupdater_1a118971567dc6a44097a9ee9c5d4ef501:
 
-- IEnumerable< IVersionUpdater > **GetVersionUpdaters** **(** IDataStorageService dataStorageService = null **)**
+- IEnumerable< IVersionUpdater > **GetVersionUpdaters** **(** IDataStorageService dataStorageService **)**
+
+.. _classwellfired_peek_viewmodel_datastorage_teamdataversionupdaters_teamdataversionupdater_1ae446d3e44dd6245a5b58a3077bba190b:
+
+- int **GetLastVersion** **(**  **)**
 
 .. _classwellfired_peek_viewmodel_datastorage_teamdataversionupdaters_teamdataversionupdater_1a2447b0535236aae015a336e51d7b3bf4:
 

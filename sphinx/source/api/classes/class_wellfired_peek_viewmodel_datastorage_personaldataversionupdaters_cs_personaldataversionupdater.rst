@@ -10,13 +10,6 @@ Description
 
 
 
-protected-attrib
------------------
-
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|readonly string   |:ref:`ProjectGUID<classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1aa05cccc8e4b4213637f997cbbad74989>`    |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
 Properties
 -----------
 
@@ -27,18 +20,20 @@ Properties
 Public Static Methods
 ----------------------
 
-+---------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|IEnumerable< IVersionUpdater >   |:ref:`GetVersionUpdaters<classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1a1a2b15daabf41f478142090d66c373a4>` **(** string projectGUID, IDataStorageService dataStorageService = null **)**   |
-+---------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|IEnumerable< IVersionUpdater >   |:ref:`GetVersionUpdaters<classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1ad17a67c8fffe221a68d761b3392b426e>` **(** IDataStorageService dataStorageService **)**   |
++---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|int                              |:ref:`GetLastVersion<classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1a2f9fbe8b95ae5bdf9d59881f4e10a9bf>` **(**  **)**                                             |
++---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 protected-func
 ---------------
 
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`PersonalDataVersionUpdater<classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1a5baea63ccf0c9aedd81760aaa4f362a8>` **(** ISerializer serializer, IDataStorageService storageService, string projectGUID **)**   |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`UpdateVersionFile<classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1abeb58323aded3c000192ebee7cbbcb3f>` **(**  **)**                                                                                          |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`PersonalDataVersionUpdater<classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1ad51f1feba08ace9f737754ab1406a56b>` **(** ISerializer serializer, IDataStorageService storageService **)**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`UpdateVersionFile<classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1abeb58323aded3c000192ebee7cbbcb3f>` **(**  **)**                                                                      |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -52,21 +47,21 @@ Public Methods
 Breakdown
 ----------
 
-.. _classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1aa05cccc8e4b4213637f997cbbad74989:
-
-- readonly string **ProjectGUID** 
-
 .. _classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1ae8380b0973f0b0f5b5ac6c78bd0208bb:
 
 - abstract int **VersionNo** **{** get; set; **}**
 
-.. _classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1a1a2b15daabf41f478142090d66c373a4:
+.. _classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1ad17a67c8fffe221a68d761b3392b426e:
 
-- IEnumerable< IVersionUpdater > **GetVersionUpdaters** **(** string projectGUID, IDataStorageService dataStorageService = null **)**
+- IEnumerable< IVersionUpdater > **GetVersionUpdaters** **(** IDataStorageService dataStorageService **)**
 
-.. _classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1a5baea63ccf0c9aedd81760aaa4f362a8:
+.. _classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1a2f9fbe8b95ae5bdf9d59881f4e10a9bf:
 
--  **PersonalDataVersionUpdater** **(** ISerializer serializer, IDataStorageService storageService, string projectGUID **)**
+- int **GetLastVersion** **(**  **)**
+
+.. _classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1ad51f1feba08ace9f737754ab1406a56b:
+
+-  **PersonalDataVersionUpdater** **(** ISerializer serializer, IDataStorageService storageService **)**
 
 .. _classwellfired_peek_viewmodel_datastorage_personaldataversionupdaters_cs_personaldataversionupdater_1abeb58323aded3c000192ebee7cbbcb3f:
 
