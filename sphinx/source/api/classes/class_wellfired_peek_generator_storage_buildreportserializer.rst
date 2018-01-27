@@ -16,13 +16,13 @@ Description
 Public Methods
 ---------------
 
-+-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`BuildReportSerializer<classwellfired_peek_generator_storage_buildreportserializer_1a272e4adf47054f8ec333ceff7798a28e>` **(** ISerializer serializer **)**                                                                   |
-+-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`Serialize<classwellfired_peek_generator_storage_buildreportserializer_1adc6e1909f43653a37234093301359d5f>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, out string serializedReport **)**   |
-+-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`Deserialize<classwellfired_peek_generator_storage_buildreportserializer_1a9eace737db52d2fcfd634c6b35ed1765>` **(** string data, out :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**             |
-+-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                            |:ref:`BuildReportSerializer<classwellfired_peek_generator_storage_buildreportserializer_1a272e4adf47054f8ec333ceff7798a28e>` **(** ISerializer serializer **)**                                      |
++------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                      |:ref:`Serialize<classwellfired_peek_generator_storage_buildreportserializer_1aa1cbd1f88e5b70e135c222670d10c06e>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**   |
++------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`BuildReport<classwellfired_peek_model_buildreport>`   |:ref:`Deserialize<classwellfired_peek_generator_storage_buildreportserializer_1af0ee3ba6ffddf77cd963bbead0acf2d0>` **(** string data **)**                                                           |
++------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -31,11 +31,11 @@ Breakdown
 
 -  **BuildReportSerializer** **(** ISerializer serializer **)**
 
-.. _classwellfired_peek_generator_storage_buildreportserializer_1adc6e1909f43653a37234093301359d5f:
+.. _classwellfired_peek_generator_storage_buildreportserializer_1aa1cbd1f88e5b70e135c222670d10c06e:
 
-- bool **Serialize** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, out string serializedReport **)**
+- string **Serialize** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**
 
-.. _classwellfired_peek_generator_storage_buildreportserializer_1a9eace737db52d2fcfd634c6b35ed1765:
+.. _classwellfired_peek_generator_storage_buildreportserializer_1af0ee3ba6ffddf77cd963bbead0acf2d0:
 
-- bool **Deserialize** **(** string data, out :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**
+- :ref:`BuildReport<classwellfired_peek_model_buildreport>` **Deserialize** **(** string data **)**
 

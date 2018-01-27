@@ -31,6 +31,15 @@ Properties
 |:ref:`IPluginAnalyzer<interfacewellfired_peek_generator_platformtools_ipluginanalyzer>`             |:ref:`PluginAnalyzer<interfacewellfired_peek_generator_platformtools_iplatformtools_1a3b98f6beee7f210791d53ad4004fedd1>` **{** get; set; **}**            |
 +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+Public Methods
+---------------
+
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`LockAssemblyReload<interfacewellfired_peek_generator_platformtools_iplatformtools_1a464aff99360862de7b05b4a41b1a4a59>` **(**  **)**     |
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`UnlockAssemblyReload<interfacewellfired_peek_generator_platformtools_iplatformtools_1ab924599b53982bb0512a72f818928f95>` **(**  **)**   |
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
 Breakdown
 ----------
 
@@ -65,4 +74,12 @@ Breakdown
 .. _interfacewellfired_peek_generator_platformtools_iplatformtools_1a3b98f6beee7f210791d53ad4004fedd1:
 
 - :ref:`IPluginAnalyzer<interfacewellfired_peek_generator_platformtools_ipluginanalyzer>` **PluginAnalyzer** **{** get; set; **}**
+
+.. _interfacewellfired_peek_generator_platformtools_iplatformtools_1a464aff99360862de7b05b4a41b1a4a59:
+
+- void **LockAssemblyReload** **(**  **)**
+
+.. _interfacewellfired_peek_generator_platformtools_iplatformtools_1ab924599b53982bb0512a72f818928f95:
+
+- void **UnlockAssemblyReload** **(**  **)**
 

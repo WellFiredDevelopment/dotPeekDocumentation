@@ -13,20 +13,20 @@ Description
 Public Methods
 ---------------
 
-+-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`Serialize<interfacewellfired_peek_generator_storage_ibuildreportserializer_1a67be91792a9b68f9eacaa9abda945ff1>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, out string serializedReport **)**   |
-+-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`Deserialize<interfacewellfired_peek_generator_storage_ibuildreportserializer_1a99a81067c6600698e7522fcd2f9fdf58>` **(** string data, out :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**             |
-+-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                      |:ref:`Serialize<interfacewellfired_peek_generator_storage_ibuildreportserializer_1a04d48ea78624f11ac4989c5c6da48afc>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**   |
++------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`BuildReport<classwellfired_peek_model_buildreport>`   |:ref:`Deserialize<interfacewellfired_peek_generator_storage_ibuildreportserializer_1af221b50c6410ffec372b3a63a8549e6a>` **(** string data **)**                                                           |
++------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _interfacewellfired_peek_generator_storage_ibuildreportserializer_1a67be91792a9b68f9eacaa9abda945ff1:
+.. _interfacewellfired_peek_generator_storage_ibuildreportserializer_1a04d48ea78624f11ac4989c5c6da48afc:
 
-- bool **Serialize** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, out string serializedReport **)**
+- string **Serialize** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**
 
-.. _interfacewellfired_peek_generator_storage_ibuildreportserializer_1a99a81067c6600698e7522fcd2f9fdf58:
+.. _interfacewellfired_peek_generator_storage_ibuildreportserializer_1af221b50c6410ffec372b3a63a8549e6a:
 
-- bool **Deserialize** **(** string data, out :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**
+- :ref:`BuildReport<classwellfired_peek_model_buildreport>` **Deserialize** **(** string data **)**
 

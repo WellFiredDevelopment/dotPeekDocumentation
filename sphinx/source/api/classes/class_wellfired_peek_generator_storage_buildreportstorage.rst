@@ -19,7 +19,7 @@ Public Methods
 +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                                                                          |:ref:`BuildReportStorage<classwellfired_peek_generator_storage_buildreportstorage_1a7969096832b3e3e9c2e45ad75f12c785>` **(** :ref:`IBuildReportSerializer<interfacewellfired_peek_generator_storage_ibuildreportserializer>` serializer, :ref:`IFileStorage<interfacewellfired_peek_generator_storage_ifilestorage>` fileStorage **)**   |
 +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|async Task< bool >                                                        |:ref:`Save<classwellfired_peek_generator_storage_buildreportstorage_1a4f7521bcc0ad54f6d6e51dc75f0fac6f>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, string path **)**                                                                                                                                  |
+|async Task                                                                |:ref:`Save<classwellfired_peek_generator_storage_buildreportstorage_1a6accec8fbed09bcf983cda819fe9dc98>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, string path **)**                                                                                                                                  |
 +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |async Task< :ref:`BuildReport<classwellfired_peek_model_buildreport>` >   |:ref:`Load<classwellfired_peek_generator_storage_buildreportstorage_1af0436dc3a11a8fa1845cef21c4ef7626>` **(** string path **)**                                                                                                                                                                                                         |
 +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -38,9 +38,9 @@ Breakdown
 
 -  **BuildReportStorage** **(** :ref:`IBuildReportSerializer<interfacewellfired_peek_generator_storage_ibuildreportserializer>` serializer, :ref:`IFileStorage<interfacewellfired_peek_generator_storage_ifilestorage>` fileStorage **)**
 
-.. _classwellfired_peek_generator_storage_buildreportstorage_1a4f7521bcc0ad54f6d6e51dc75f0fac6f:
+.. _classwellfired_peek_generator_storage_buildreportstorage_1a6accec8fbed09bcf983cda819fe9dc98:
 
-- async Task< bool > **Save** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, string path **)**
+- async Task **Save** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, string path **)**
 
 .. _classwellfired_peek_generator_storage_buildreportstorage_1af0436dc3a11a8fa1845cef21c4ef7626:
 

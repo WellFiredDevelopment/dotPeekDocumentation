@@ -13,20 +13,20 @@ Description
 Public Methods
 ---------------
 
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`Save<interfacewellfired_peek_generator_storage_ifilestorage_1a2d539a4793bcaf43bddaaaab3dc42044>` **(** string content, string path **)**       |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`Load<interfacewellfired_peek_generator_storage_ifilestorage_1ab7ea875a01c5fd503853459f1cf26667>` **(** string path, out string content **)**   |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`Save<interfacewellfired_peek_generator_storage_ifilestorage_1ac4f9038685b01671b33f554a6ba3437f>` **(** string content, string path **)**   |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`Load<interfacewellfired_peek_generator_storage_ifilestorage_1a9da225887e29d017ed5ae490389560df>` **(** string path **)**                   |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _interfacewellfired_peek_generator_storage_ifilestorage_1a2d539a4793bcaf43bddaaaab3dc42044:
+.. _interfacewellfired_peek_generator_storage_ifilestorage_1ac4f9038685b01671b33f554a6ba3437f:
 
-- bool **Save** **(** string content, string path **)**
+- void **Save** **(** string content, string path **)**
 
-.. _interfacewellfired_peek_generator_storage_ifilestorage_1ab7ea875a01c5fd503853459f1cf26667:
+.. _interfacewellfired_peek_generator_storage_ifilestorage_1a9da225887e29d017ed5ae490389560df:
 
-- bool **Load** **(** string path, out string content **)**
+- string **Load** **(** string path **)**
 

@@ -16,20 +16,20 @@ Description
 Public Methods
 ---------------
 
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`Save<classwellfired_peek_generator_storage_filestorage_1a86d98ed01a0e69d53f5072ae5bf6a22e>` **(** string content, string path **)**       |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`Load<classwellfired_peek_generator_storage_filestorage_1a0041754cd3c97e02ddcdc3af7032a30c>` **(** string path, out string content **)**   |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`Save<classwellfired_peek_generator_storage_filestorage_1ad90c6be639e150e4fd189e93bea0f82f>` **(** string content, string path **)**   |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`Load<classwellfired_peek_generator_storage_filestorage_1abfaef4f5f79f14c7d807a6a196fcbd5b>` **(** string path **)**                   |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_peek_generator_storage_filestorage_1a86d98ed01a0e69d53f5072ae5bf6a22e:
+.. _classwellfired_peek_generator_storage_filestorage_1ad90c6be639e150e4fd189e93bea0f82f:
 
-- bool **Save** **(** string content, string path **)**
+- void **Save** **(** string content, string path **)**
 
-.. _classwellfired_peek_generator_storage_filestorage_1a0041754cd3c97e02ddcdc3af7032a30c:
+.. _classwellfired_peek_generator_storage_filestorage_1abfaef4f5f79f14c7d807a6a196fcbd5b:
 
-- bool **Load** **(** string path, out string content **)**
+- string **Load** **(** string path **)**
 

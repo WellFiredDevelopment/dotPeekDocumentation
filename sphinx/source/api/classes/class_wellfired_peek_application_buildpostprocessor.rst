@@ -10,17 +10,23 @@ Description
 
 
 
-Public Static Methods
-----------------------
+Public Methods
+---------------
 
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|async Task   |:ref:`PostProcessBuild<classwellfired_peek_application_buildpostprocessor_1aba10cefbb673befccb041fd0a79d0d87>` **(** :ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>` dotPeekApplication **)**   |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`BuildPostProcessor<classwellfired_peek_application_buildpostprocessor_1abd5d70e8991a672bbc8b2524083937f9>` **(** :ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>` dotPeekApplication **)**   |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`PostProcessBuild<classwellfired_peek_application_buildpostprocessor_1a960a4d661d0cda2b644d03c96417d209>` **(**  **)**                                                                                                           |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_peek_application_buildpostprocessor_1aba10cefbb673befccb041fd0a79d0d87:
+.. _classwellfired_peek_application_buildpostprocessor_1abd5d70e8991a672bbc8b2524083937f9:
 
-- async Task **PostProcessBuild** **(** :ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>` dotPeekApplication **)**
+-  **BuildPostProcessor** **(** :ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>` dotPeekApplication **)**
+
+.. _classwellfired_peek_application_buildpostprocessor_1a960a4d661d0cda2b644d03c96417d209:
+
+- void **PostProcessBuild** **(**  **)**
 

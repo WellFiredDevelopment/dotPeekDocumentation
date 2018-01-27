@@ -14,7 +14,7 @@ Public Methods
 ---------------
 
 +--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Task< bool >                                                        |:ref:`Save<interfacewellfired_peek_generator_storage_ibuildreportstorage_1accf456d42e8923d83ca92834c33f859d>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, string path **)**   |
+|Task                                                                |:ref:`Save<interfacewellfired_peek_generator_storage_ibuildreportstorage_1a272e024c13b00f4bbd11ccc969ac2d09>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, string path **)**   |
 +--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |Task< :ref:`BuildReport<classwellfired_peek_model_buildreport>` >   |:ref:`Load<interfacewellfired_peek_generator_storage_ibuildreportstorage_1a176da199be6086200fa287ecec16ab46>` **(** string path **)**                                                                          |
 +--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -22,9 +22,9 @@ Public Methods
 Breakdown
 ----------
 
-.. _interfacewellfired_peek_generator_storage_ibuildreportstorage_1accf456d42e8923d83ca92834c33f859d:
+.. _interfacewellfired_peek_generator_storage_ibuildreportstorage_1a272e024c13b00f4bbd11ccc969ac2d09:
 
-- Task< bool > **Save** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, string path **)**
+- Task **Save** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, string path **)**
 
 .. _interfacewellfired_peek_generator_storage_ibuildreportstorage_1a176da199be6086200fa287ecec16ab46:
 

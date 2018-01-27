@@ -38,6 +38,10 @@ Public Methods
 ---------------
 
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`LockAssemblyReload<classwellfired_peek_generator_unity_editor_unityplatformtools_1aed217882cc460c382941d0b10c97ea14>` **(**  **)**                          |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`UnlockAssemblyReload<classwellfired_peek_generator_unity_editor_unityplatformtools_1a3db13d1b32182fa555e3e7411d008726>` **(**  **)**                        |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |             |:ref:`UnityPlatformTools<classwellfired_peek_generator_unity_editor_unityplatformtools_1a8374c4a420ad5cf21c918727f5ffc3e8>` **(** BuildTarget buildTarget **)**   |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
@@ -75,6 +79,14 @@ Breakdown
 .. _classwellfired_peek_generator_unity_editor_unityplatformtools_1ae647c65ba3caa4d035f87ce5cd1dcce2:
 
 - :ref:`IMainThreadRunner<interfacewellfired_peek_generator_platformtools_imainthreadrunner>` **MainThreadRunner** **{** get; set; **}**
+
+.. _classwellfired_peek_generator_unity_editor_unityplatformtools_1aed217882cc460c382941d0b10c97ea14:
+
+- void **LockAssemblyReload** **(**  **)**
+
+.. _classwellfired_peek_generator_unity_editor_unityplatformtools_1a3db13d1b32182fa555e3e7411d008726:
+
+- void **UnlockAssemblyReload** **(**  **)**
 
 .. _classwellfired_peek_generator_unity_editor_unityplatformtools_1a8374c4a420ad5cf21c918727f5ffc3e8:
 
