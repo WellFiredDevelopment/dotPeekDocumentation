@@ -21,6 +21,8 @@ Properties
 -----------
 
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+|bool         |:ref:`GenerateBuildReport<classwellfired_peek_viewmodel_settings_1a5897c842993d1f2ae56f658e93c51619>` **{** get; set; **}**                 |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 |bool         |:ref:`AutomaticallyShowReportAfterBuild<classwellfired_peek_viewmodel_settings_1a75722108f47f6ca2cb0952fa1afcbf38>` **{** get; set; **}**   |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 |string       |:ref:`DisplayedBuildReportPath<classwellfired_peek_viewmodel_settings_1ade217231d9addcf23ce5e343bf592f71>` **{** get; set; **}**            |
@@ -49,6 +51,10 @@ Breakdown
 .. _classwellfired_peek_viewmodel_settings_1a9658257cda01c197be8b42375c9e88c9:
 
 - readonly BindableProperty **BuildReportPathProperty** 
+
+.. _classwellfired_peek_viewmodel_settings_1a5897c842993d1f2ae56f658e93c51619:
+
+- bool **GenerateBuildReport** **{** get; set; **}**
 
 .. _classwellfired_peek_viewmodel_settings_1a75722108f47f6ca2cb0952fa1afcbf38:
 

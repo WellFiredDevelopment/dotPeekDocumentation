@@ -23,6 +23,8 @@ Public Properties
 +---------------+------------------------------------------------------------------------------------------------------------------+
 |const string   |:ref:`OptionKey<classwellfired_peek_model_options_1ad522c10e3d0a2e13353725162e5db2fc>`                            |
 +---------------+------------------------------------------------------------------------------------------------------------------+
+|bool           |:ref:`GenerateBuildReport<classwellfired_peek_model_options_1a8a9f9729eaecb1f62e4084f115c0002d>`                  |
++---------------+------------------------------------------------------------------------------------------------------------------+
 |string         |:ref:`BuildReportPath<classwellfired_peek_model_options_1ada52c048829379886449b9c39d67e28a>`                      |
 +---------------+------------------------------------------------------------------------------------------------------------------+
 |bool           |:ref:`AutomaticallyShowReportAfterBuild<classwellfired_peek_model_options_1a4c1a71f1fbac17ddad54df735e291468>`    |
@@ -47,6 +49,10 @@ Breakdown
 .. _classwellfired_peek_model_options_1ad522c10e3d0a2e13353725162e5db2fc:
 
 - const string **OptionKey** 
+
+.. _classwellfired_peek_model_options_1a8a9f9729eaecb1f62e4084f115c0002d:
+
+- bool **GenerateBuildReport** 
 
 .. _classwellfired_peek_model_options_1ada52c048829379886449b9c39d67e28a:
 

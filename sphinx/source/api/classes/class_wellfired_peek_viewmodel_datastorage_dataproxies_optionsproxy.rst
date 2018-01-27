@@ -14,6 +14,8 @@ Properties
 -----------
 
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|bool         |:ref:`GenerateBuildReport<classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy_1aa1ac642934cb1aa09dc928f2b02e1f3e>` **{** get; set; **}**                 |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |string       |:ref:`BuildReportPath<classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy_1acc13a23f3fec3311375f971830d75963>` **{** get; set; **}**                     |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |bool         |:ref:`AutomaticallyShowReportAfterBuild<classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy_1a56dbcd8c87018ed7e2946f57f13269a4>` **{** get; set; **}**   |
@@ -23,6 +25,10 @@ Properties
 
 Breakdown
 ----------
+
+.. _classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy_1aa1ac642934cb1aa09dc928f2b02e1f3e:
+
+- bool **GenerateBuildReport** **{** get; set; **}**
 
 .. _classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy_1acc13a23f3fec3311375f971830d75963:
 

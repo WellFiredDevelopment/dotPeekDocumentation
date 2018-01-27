@@ -13,14 +13,14 @@ Description
 Public Methods
 ---------------
 
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`SettingsToggle<classwellfired_peek_view_views_settingsviews_settingstoggle_1a0977a39234b04ddbd8773b8ec961b2e3>` **(**  **)**   |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------+
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`SettingsToggle<classwellfired_peek_view_views_settingsviews_settingstoggle_1a1ed8d24b3e84959e01adb75c46b91c24>` **(** string propertyToBind **)**   |
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_peek_view_views_settingsviews_settingstoggle_1a0977a39234b04ddbd8773b8ec961b2e3:
+.. _classwellfired_peek_view_views_settingsviews_settingstoggle_1a1ed8d24b3e84959e01adb75c46b91c24:
 
--  **SettingsToggle** **(**  **)**
+-  **SettingsToggle** **(** string propertyToBind **)**
 
