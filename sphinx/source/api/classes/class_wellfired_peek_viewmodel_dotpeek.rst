@@ -25,7 +25,7 @@ Properties
 +----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
 |string                                                                                                    |:ref:`BuildReportPath<classwellfired_peek_viewmodel_dotpeek_1a70faf7f480eb8958662afc1a420c47c9>` **{** get; set; **}**       |
 +----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IndividualBuildReport<classwellfired_peek_viewmodel_buildreport_individualbuildreport>`             |:ref:`SelectedItem<classwellfired_peek_viewmodel_dotpeek_1a79f256f05baa3480f795747af5fc696e>` **{** get; set; **}**          |
+|:ref:`IDetailItem<interfacewellfired_peek_viewmodel_idetailitem>`                                         |:ref:`SelectedItem<classwellfired_peek_viewmodel_dotpeek_1a18c83f6331acfd913320199d65e2c54c>` **{** get; set; **}**          |
 +----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
 |ObservableBase                                                                                            |:ref:`DetailSource<classwellfired_peek_viewmodel_dotpeek_1a306ca103465b70b07302f28ec9b82a64>` **{** get; set; **}**          |
 +----------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
@@ -74,9 +74,9 @@ Breakdown
 
 - string **BuildReportPath** **{** get; set; **}**
 
-.. _classwellfired_peek_viewmodel_dotpeek_1a79f256f05baa3480f795747af5fc696e:
+.. _classwellfired_peek_viewmodel_dotpeek_1a18c83f6331acfd913320199d65e2c54c:
 
-- :ref:`IndividualBuildReport<classwellfired_peek_viewmodel_buildreport_individualbuildreport>` **SelectedItem** **{** get; set; **}**
+- :ref:`IDetailItem<interfacewellfired_peek_viewmodel_idetailitem>` **SelectedItem** **{** get; set; **}**
 
 .. _classwellfired_peek_viewmodel_dotpeek_1a306ca103465b70b07302f28ec9b82a64:
 

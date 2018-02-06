@@ -5,6 +5,9 @@ IndividualBuildReport
 
 **Namespace:** :ref:`WellFired.Peek.ViewModel<namespacewellfired_peek_viewmodel>`
 
+**Implements:** :ref:`WellFired.Peek.ViewModel.IDetailItem<interfacewellfired_peek_viewmodel_idetailitem>`
+
+
 Description
 ------------
 

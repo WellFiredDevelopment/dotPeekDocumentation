@@ -5,6 +5,9 @@ IndividualBuildGroup
 
 **Namespace:** :ref:`WellFired.Peek<namespacewellfired_peek>`
 
+**Implements:** :ref:`WellFired.Peek.ViewModel.IDetailItem<interfacewellfired_peek_viewmodel_idetailitem>`
+
+
 Description
 ------------
 
