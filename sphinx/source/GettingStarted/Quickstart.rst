@@ -5,7 +5,7 @@ Quick Start
 
 2. After opening .Peek, open the Setting page. Ensure that `Generate a Build Report after a build is done` is enabled. This will indicate to .Peek that a build report should be generated when Unity finishes a build.
 
-.. image:: Images/GettingGtarted/Settings.png
+.. image:: Images/GettingStarted/Settings.png
 
 3. If you wish that at the end of a build .Peek is automatically opened for you, enable the option `Automatically open DotPeek after a build is done`.
 
