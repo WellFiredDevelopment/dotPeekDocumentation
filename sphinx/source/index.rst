@@ -1,7 +1,7 @@
 .Peek Documentation
 ===================
 
-Welcome to the official documentation for .Peek, a Unity editor tool that allows you to automatically generate a report of  the assets included into your builds and keep a eye on the history of the evolution of your project in a nicely integrated and responsive interface.
+Welcome to the official documentation for .Peek, a Unity editor tool that allows you to automatically generate a report of  the assets included and not into your builds and keep an eye on the evolution of your project assets in a nicely integrated and responsive interface.
 We recommend you read the :ref:`introduction page <doc_about_intro>` to get an overview of what this documentation
 has to offer.
 
@@ -21,8 +21,16 @@ The main documentation for the site is organized into the following sections:
     :caption: General
     :name: sec-general
 
-    general/introduction
-    general/faq
+    General/Introduction
+    General/faq
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Getting Started
+    :name: sec-general
+
+    GettingStarted/Installing
+    GettingStarted/Quickstart
 
 .. toctree::
    :maxdepth: 1

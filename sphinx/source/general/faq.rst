@@ -16,4 +16,4 @@ Yes ! And you are strongly recommended to do so. By specifying a path relative t
 Can I use .Peek reports outside of .Peek interface
 --------------------------------------------------
 
-.Peek reports are in open JSON format. They can be parsed efficiently and used anywhere you find it useful. You could for example render them in your own web interface. .Peek lastest version will always update the older build reports to the newest format, ensuring your build reports stay relevant at any time.
+.Peek reports are in open JSON format. They can be parsed efficiently and used anywhere you find it useful. You can for example render them in your own web interface. .Peek lastest version will always update the older build reports to the newest format, ensuring your build reports stay relevant at any time.
