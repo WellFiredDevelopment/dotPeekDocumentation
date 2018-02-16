@@ -29,6 +29,12 @@ pip3 install sphinx
 pip3 install sphinx_rtd_theme
 ```
 
+On MacOS, you may get a write permission issue when pip install sphinx, try the following command:
+
+```
+sudo pip install --ignore-installed sphinx
+```
+
 You can then build the HTML documentation from the root folder of this repository with:
 
 ```sh
