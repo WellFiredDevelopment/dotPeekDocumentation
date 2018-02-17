@@ -1,4 +1,4 @@
-.. _doc_about_intro:
+.. _doc_general_introduction:
 
 Introduction
 ============
@@ -23,7 +23,7 @@ Here a list of the core features :
 * Provides a list of unused assets for each builds.
 * Provide the possibility to share build reports on a VCS, or to save it in different location for each team members.
 * Possibility to run build generation silently or to totally shut it off.
-* Very responsive UI thanks to the usage of `.Guacamole <https://github.com/ArtOfSettling/.Guacamole>`_Guacamole, an open source MVVM framework for Unity.
+* Very responsive UI, even for projects with a large list of assets, thanks to the usage of `.Guacamole <https://github.com/ArtOfSettling/.Guacamole>`_, an open source MVVM framework for Unity.
 
 About the documentation
 -----------------------
@@ -45,5 +45,5 @@ This documentation is organised in five sections, the way it is split up should 
 
 - The :ref:`sec-general` section contains this introduction as well as the :ref:`doc_general_faq`.
 - The :ref:`sec-getting-started` section gives you a quick entry point to start using the tool.
-- Finally, the :ref:`sec-class-ref` is the documentation of the .Peek API. It is generated automatically from files in the main repository, 
-and the generated files of the documentation are therefore not meant to be modified.
+- Finally, the :ref:`sec-class-ref` is the documentation of the .Peek API. It is generated automatically from files in the 
+main repository, and the generated files of the documentation are therefore not meant to be modified.
