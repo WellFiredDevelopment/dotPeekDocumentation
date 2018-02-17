@@ -21,16 +21,16 @@ The main documentation for the site is organized into the following sections:
     :caption: General
     :name: sec-general
 
-    General/Introduction
-    General/faq
+    general/introduction
+    general/faq
 
 .. toctree::
     :maxdepth: 1
     :caption: Getting Started
     :name: sec-getting-started
 
-    GettingStarted/Installing
-    GettingStarted/Quickstart
+    getting-started/installing
+    getting-started/quickstart
 
 .. toctree::
    :maxdepth: 1

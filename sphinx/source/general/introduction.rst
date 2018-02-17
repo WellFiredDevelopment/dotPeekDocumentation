@@ -8,9 +8,13 @@ This page aims at giving a broad presentation of the tool and of the contents of
 About .Peek
 -----------
 
-Most of Unity projects requires a large amount of assets (textures, plugins, prefabs,…). These assets have a direct impact on the size of your build and the performance of your game. Tracking these assets to ensure your project stays up to quality standards and does not become a nightmare to maintain is very hard, especially when you are working in a team of people with different background.
+Most of Unity projects requires a large amount of assets (textures, plugins, prefabs,…). These assets have a direct impact on the 
+size of your build and the performance of your game. Tracking these assets to ensure your project stays up to quality standards 
+and does not become a nightmare to maintain is very hard, especially when you are working in a team of people with different background.
 
-.Peek is here to support you in quickly identifying the usual suspect, before it becomes a real problem. It is a must have for any development team who wants to control what goes into their build and react on time when undesirable assets are integrated to the project.
+.Peek is here to support you in quickly identifying the usual suspect, before it becomes a real problem. It is a must have for 
+any development team who wants to control what goes into their build and react on time when undesirable assets are integrated to 
+the project.
 
 Here a list of the core features :
 
@@ -19,7 +23,7 @@ Here a list of the core features :
 * Provides a list of unused assets for each builds.
 * Provide the possibility to share build reports on a VCS, or to save it in different location for each team members.
 * Possibility to run build generation silently or to totally shut it off.
-* Very responsive UI thanks to the usage of threads that does not block Unity main thread.
+* Very responsive UI thanks to the usage of `.Guacamole <https://github.com/ArtOfSettling/.Guacamole>`_Guacamole, an open source MVVM framework for Unity.
 
 About the documentation
 -----------------------
@@ -39,9 +43,7 @@ Organisation of the documentation
 
 This documentation is organised in five sections, the way it is split up should be relatively intuitive:
 
-- The :ref:`sec-general` section contains this introduction as well as general information on the tool It also contains
-  the :ref:`doc_faq`.
-- The :ref:`sec-learn` section is the the main entry point of this documentation, as it contains all the necessary
-  information on using the tool.
-- Finally, the :ref:`sec-class-ref` is the documentation of the .Command API. It is generated automatically from a
-  files in the main repository, and the generated files of the documentation are therefore not meant to be modified.
+- The :ref:`sec-general` section contains this introduction as well as the :ref:`doc_general_faq`.
+- The :ref:`sec-getting-started` section gives you a quick entry point to start using the tool.
+- Finally, the :ref:`sec-class-ref` is the documentation of the .Peek API. It is generated automatically from files in the main repository, 
+and the generated files of the documentation are therefore not meant to be modified.
