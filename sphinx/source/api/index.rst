@@ -1,4 +1,4 @@
-.Peek API
+.Profile API
 =============
 
 .. toctree::
