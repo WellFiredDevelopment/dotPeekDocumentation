@@ -42,6 +42,7 @@ The main documentation for the site is organized into the following sections:
 
     ui-overview/main-page
     ui-overview/build-report-panels
+    ui-overview/settings-page
 
 .. toctree::
    :maxdepth: 2
