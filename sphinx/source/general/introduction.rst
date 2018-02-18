@@ -46,4 +46,4 @@ This documentation is organised in five sections, the way it is split up should 
 - The :ref:`sec-general` section contains this introduction as well as the :ref:`doc_general_faq`.
 - The :ref:`sec-getting-started` section gives you a quick entry point to start using the tool.
 - Finally, the :ref:`sec-class-ref` is the documentation of the .Peek API. It is generated automatically from files in the 
-main repository, and the generated files of the documentation are therefore not meant to be modified.
+  main repository, and the generated files of the documentation are therefore not meant to be modified.

@@ -1,2 +1,4 @@
 /node_modules/
 /.idea/
+sphinx/source/.vscode
+sphinx/source/_build

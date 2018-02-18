@@ -25,4 +25,4 @@ Your first build report
 Next Step
 ---------
 
-In the coming pages, you’ll learn more about .Peek’s User Interface, and how are stored and managed your build reports.
+In the coming pages, you’ll learn more about .Peek’s User Interface, and how your build reports are stored and managed.

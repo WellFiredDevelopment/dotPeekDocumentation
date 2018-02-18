@@ -20,7 +20,7 @@ interest. You can also use the search function in the top left corner.
 The main documentation for the site is organized into the following sections:
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: General
     :name: sec-general
 
@@ -28,7 +28,7 @@ The main documentation for the site is organized into the following sections:
     general/faq
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Getting Started
     :name: sec-getting-started
 
@@ -36,7 +36,15 @@ The main documentation for the site is organized into the following sections:
     getting-started/quickstart
 
 .. toctree::
-   :maxdepth: 1
+    :maxdepth: 2
+    :caption: UI Overview
+    :name: sec-ui-overview
+
+    ui-overview/main-page
+    ui-overview/build-report-panels
+
+.. toctree::
+   :maxdepth: 2
    :caption: Class API reference
    :name: sec-class-ref
 
