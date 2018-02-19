@@ -8,7 +8,7 @@ This page aims at giving a broad presentation of the tool and of the contents of
 About .Peek
 -----------
 
-Most of Unity projects requires a large amount of assets (textures, plugins, prefabs,…). These assets have a direct impact on the 
+Most of Unity projects requires a large amount of assets (textures, audio files, prefabs, plugins…). These assets have a direct impact on the 
 size of your build and the performance of your game. Tracking these assets to ensure your project stays up to quality standards 
 and does not become a nightmare to maintain is very hard, especially when you are working in a team of people with different background.
 
@@ -21,7 +21,7 @@ Here a list of the core features :
 * Automatically generate and archive a build report each time a build is performed.
 * Provide a nice interface to quickly jump between build reports and compare the content of each build.
 * Provides a list of unused assets for each builds.
-* Provide the possibility to share build reports on a VCS, or to save it in different location for each team members.
+* Provide the possibility to share build reports on a VCS, or to save it in different location for each team member.
 * Possibility to run build generation silently or to totally shut it off.
 * Very responsive UI, even for projects with a large list of assets, thanks to the usage of `.Guacamole <https://github.com/ArtOfSettling/.Guacamole>`_, an open source MVVM framework for Unity.
 
