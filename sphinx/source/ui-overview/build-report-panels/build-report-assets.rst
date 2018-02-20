@@ -27,27 +27,33 @@ Percentage
 Filtering
 ---------
 
+Simple search
+:::::::::::::
+
 You can filter which assets should be listed by entering a value in the search field. .Peek will list all the
-assets which path contains one of the word you input. For example, if you enter ``.png car``, all the asset with a path
-containing ".png" and "car" will be displayed. **The search field is case unsensitive.**
+assets which path contains all of the word you input. For example, if you enter ``.png car``, all the asset with a path
+containing *.png* and *car* will be displayed. **The search field is case unsensitive.**
+
+Typed search
+:::::::::::::
 
 You can also filter the assets by type. You simply need to input ``t:[asset type]``. This can be used on top of the
-simple word based search, like for example : ``car t:texture renault``. The values accepted are:
+simple search, like for example : ``car t:texture renault``. The values accepted are:
 
 t:texture
-   Displays files with extenstion : ".png", ".tga", ".psd", ".tif", ".jpg", ".jpeg", ".gif", ".bmp", ".iff", ".pict"
+   Displays files with extenstion : *.png*, *.tga*, *.psd*, *.tif*, *.jpg*, *.jpeg*, *.gif*, *.bmp*, *.iff*, *.pict*
 
 t:audio
-   Displays files with extenstion : ".mp3", ".ogg", ".wav", ".aiff", ".aif", ".mod", ".it", ".s3m", ".xm"
+   Displays files with extenstion : *.mp3*, *.ogg*, *.wav*, *.aiff*, *.aif*, *.mod*, *.it*, *.s3m*, *.xm*
 
 t:model
-   Displays files with extenstion : ".fbx", ".dae", ".3ds", ".dxf", ".obj", ".skp", ".ma", ".mb", ".max", ".c4d", ".blend"
+   Displays files with extenstion : *.fbx*, *.dae*, *.3ds*, *.dxf*, *.obj*, *.skp*, *.ma*, *.mb*, *.max*, *.c4d*, *.blend*
 
 t:plugin
-   Displays files with extenstion : ".dll", ".jar", ".so", ".aar", ".a"
+   Displays files with extenstion : *.dll*, *.jar*, *.so*, *.aar*, *.a*
 
 t:shader
-   Displays files with extenstion : ".shader", ".cginc"
+   Displays files with extenstion : *.shader*, *.cginc*
 
 These extensions are based on what is supported in Unity. Don't hesitate to create a pull request or open an issue on 
 Github if you find out relevant to add an extension here.
