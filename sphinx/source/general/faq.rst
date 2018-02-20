@@ -16,12 +16,12 @@ of the build.
 Can .Peek be used on Continous Integration server
 -------------------------------------------------
 
-Yes ! And you are strongly recommended to do so. By specifying a path relative to your unity project in .Peek settings, all your 
-build reports can be generated on the CI and can be archived next to your other artifacts.
+Yes! And we strongly encourage you to do so. By specifying a path relative to your unity project in .Peek settings, all your 
+build reports can be generated on your CI machine and can be archived next to your other artifacts.
 
-Can I use .Peek reports outside of .Peek interface
---------------------------------------------------
+Can I use .Peek reports outside of the .Peek interface
+------------------------------------------------------
 
 .Peek reports are serialized in JSON format. They can be parsed efficiently and used anywhere you find it useful. You can for 
-example render them in your own web interface. .Peek lastest version will always update the older build reports to the newest 
-format, ensuring your build reports stay relevant at any time.
+example render them in your own web interface, or parse them on a CI machine. .Peek lastest version will always update the older 
+build reports to the newest format, ensuring your build reports stay relevant at any time.
