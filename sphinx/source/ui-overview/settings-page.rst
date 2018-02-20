@@ -20,8 +20,10 @@ Automatically open
 
 Build reports location
    This is the location where reports are saved. You can indicate either an absolute path, or a relative path. Relative paths root folder
-   is your Unity project folder (the one containing Assets/ folder). 
-   
+   is your Unity project folder (the one containing Assets/ folder). Different Unity project can save their reports in the same
+   folder. Indeed, .Peek will create a subfolder with the GUID it assigned to your Unity project. The GUID is a team shared 
+   setting saved in *[Unity Project]/WellFired*.
+
    Relative paths are team shared. Therefore, if you input *"../BuildReports"* as report location, then all of your 
    team members will have their build reports saved in *[Unity Project]/../BuildReports*. 
    
