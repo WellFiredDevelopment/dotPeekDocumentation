@@ -22,6 +22,8 @@ Properties
 +------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 |string                                                                                    |:ref:`UnityVersion<classwellfired_peek_viewmodel_buildreport_overview_1adc78e2c57b21dc97d23a43521245baf8>` **{** get; set; **}**         |
 +------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+|long                                                                                      |:ref:`BuildDuration<classwellfired_peek_viewmodel_buildreport_overview_1a1aaae15af82dbd8c668034d832d35b2d>` **{** get; set; **}**        |
++------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`FileSize<structwellfired_peek_data_filesize>`                                       |:ref:`BuildSize<classwellfired_peek_viewmodel_buildreport_overview_1a82ab2c9b0757de3bf688ac03857865ac>` **{** get; set; **}**            |
 +------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`FileSize<structwellfired_peek_data_filesize>`                                       |:ref:`ResourceAssetsSize<classwellfired_peek_viewmodel_buildreport_overview_1a14668fb6fc04b9da3e69af50933c9015>` **{** get; set; **}**   |
@@ -54,6 +56,10 @@ Breakdown
 .. _classwellfired_peek_viewmodel_buildreport_overview_1adc78e2c57b21dc97d23a43521245baf8:
 
 - string **UnityVersion** **{** get; set; **}**
+
+.. _classwellfired_peek_viewmodel_buildreport_overview_1a1aaae15af82dbd8c668034d832d35b2d:
+
+- long **BuildDuration** **{** get; set; **}**
 
 .. _classwellfired_peek_viewmodel_buildreport_overview_1a82ab2c9b0757de3bf688ac03857865ac:
 
