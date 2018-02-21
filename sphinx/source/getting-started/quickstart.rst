@@ -13,6 +13,9 @@ Your first build report
 
 Congratualation ! You generated your first build report !
 
+.. tip :: If the .Peek does not open by itself at the end of the build it could be you disabled the option in .Peek. See
+          :ref:`doc_ui-overview_settings-page` for more info.
+
 .. image:: images/quickstart/first-build-report.png
 
 Next Step

@@ -1,3 +1,5 @@
+.. _doc_ui-overview_settings-page:
+
 Settings
 ========
 
