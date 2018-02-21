@@ -5,20 +5,13 @@ Your first build report
 -----------------------
 
 1. After installing .Peek, .Peek window is accessible through the menu **Window** > **DotPeek** in Unity Editor. Click on it 
-   to open .Peek interface.
+   to open .Peek interface : the list of build reports is empty ;(
 
-2. After opening .Peek, open the Settings page.
+2. Build your project for one of the supported platforms : Windows, Linux, Mac OS, iOS or Android.
 
-.. image:: images/quickstart/settings.png
+3. At the end of the build, .Peek should open by itself and display the new build report.
 
-3. Ensure that **Generate a Build Report after a build is done** and **Automatically open DotPeek after a build is done** are 
-   enabled.
-
-4. Now you are ready to build. Build your project for one of the supported platforms : Windows, Linux, Mac OS, iOS or Android.
-
-5. At the end of the build, .Peek should open by itself.
-
-6. Congratualation ! You generated your first build report !
+Congratualation ! You generated your first build report !
 
 .. image:: images/quickstart/first-build-report.png
 
