@@ -40,7 +40,7 @@ The main documentation for the site is organized into the following sections:
     :caption: UI Overview
     :name: sec-ui-overview
 
-    ui-overview/main-page
+    ui-overview/front-page
     ui-overview/build-report-panels
     ui-overview/settings-page
 
