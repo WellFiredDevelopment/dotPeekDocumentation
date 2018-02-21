@@ -13,14 +13,14 @@ Description
 Public Methods
 ---------------
 
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`InjectSettingsIn<interfacewellfired_peek_generator_buildreportgeneration_utils_ibuildsettingsinjector_1adeb1fe8834e79b734cc9842f1e315feb>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**   |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`InjectSettingsIn<interfacewellfired_peek_generator_buildreportgeneration_utils_ibuildsettingsinjector_1a9c1bb9951b1e4b59762abbf3bbe9ed06>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, Platform platform **)**   |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _interfacewellfired_peek_generator_buildreportgeneration_utils_ibuildsettingsinjector_1adeb1fe8834e79b734cc9842f1e315feb:
+.. _interfacewellfired_peek_generator_buildreportgeneration_utils_ibuildsettingsinjector_1a9c1bb9951b1e4b59762abbf3bbe9ed06:
 
-- void **InjectSettingsIn** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**
+- void **InjectSettingsIn** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, Platform platform **)**
 

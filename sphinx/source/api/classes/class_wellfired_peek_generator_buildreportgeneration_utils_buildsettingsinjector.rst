@@ -19,7 +19,7 @@ Public Methods
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |             |:ref:`BuildSettingsInjector<classwellfired_peek_generator_buildreportgeneration_utils_buildsettingsinjector_1a88ca9e67e2854216cccae83863bd1dd0>` **(** :ref:`IBuildSettings<interfacewellfired_peek_generator_platformtools_ibuildsettings>` buildSettings **)**   |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`InjectSettingsIn<classwellfired_peek_generator_buildreportgeneration_utils_buildsettingsinjector_1ab4443db430ff37b6a130a8e93caf6e6e>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**                                      |
+|void         |:ref:`InjectSettingsIn<classwellfired_peek_generator_buildreportgeneration_utils_buildsettingsinjector_1a558255b962296c1352ea5a7a68ec0f5f>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, Platform platform **)**                   |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
@@ -29,7 +29,7 @@ Breakdown
 
 -  **BuildSettingsInjector** **(** :ref:`IBuildSettings<interfacewellfired_peek_generator_platformtools_ibuildsettings>` buildSettings **)**
 
-.. _classwellfired_peek_generator_buildreportgeneration_utils_buildsettingsinjector_1ab4443db430ff37b6a130a8e93caf6e6e:
+.. _classwellfired_peek_generator_buildreportgeneration_utils_buildsettingsinjector_1a558255b962296c1352ea5a7a68ec0f5f:
 
-- void **InjectSettingsIn** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport **)**
+- void **InjectSettingsIn** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` buildReport, Platform platform **)**
 

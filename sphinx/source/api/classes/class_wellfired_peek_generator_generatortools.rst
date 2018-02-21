@@ -14,8 +14,6 @@ Properties
 -----------
 
 +----------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IScenesInformation<interfacewellfired_peek_generator_platformtools_iscenesinformation>`                         |:ref:`ScenesInformation<classwellfired_peek_generator_generatortools_1a68e6eabbea45848348e4388fcf00d336>` **{** get; set; **}**       |
-+----------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`IPrefabExtractor<interfacewellfired_peek_generator_buildreportgeneration_utils_iprefabextractor>`               |:ref:`PrefabExtractor<classwellfired_peek_generator_generatortools_1a94e9172903d67a3fac0b7df966d80d77>` **{** get; set; **}**         |
 +----------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`IBuildSettingsInjector<interfacewellfired_peek_generator_buildreportgeneration_utils_ibuildsettingsinjector>`   |:ref:`BuildSettingsInjector<classwellfired_peek_generator_generatortools_1a7fdfeacf503eed19e7de0203ab60bcb6>` **{** get; set; **}**   |
@@ -28,16 +26,12 @@ Properties
 Public Methods
 ---------------
 
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`GeneratorTools<classwellfired_peek_generator_generatortools_1af1d2a4f98a4571ecedf490d054dc8a61>` **(** :ref:`IBuildLogParser<interfacewellfired_peek_generator_buildreportgeneration_parsers_ibuildlogparser>` logParser, :ref:`IScenesInformation<interfacewellfired_peek_generator_platformtools_iscenesinformation>` scenesInformation, :ref:`IPrefabExtractor<interfacewellfired_peek_generator_buildreportgeneration_utils_iprefabextractor>` prefabExtractor, :ref:`IAssetsProcessor<interfacewellfired_peek_generator_buildreportgeneration_utils_iassetsprocessor>` assetsProcessor, :ref:`IBuildSettingsInjector<interfacewellfired_peek_generator_buildreportgeneration_utils_ibuildsettingsinjector>` buildSettingsInjector **)**   |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`GeneratorTools<classwellfired_peek_generator_generatortools_1a53f16f96cd60ca306a88fdcdac0f9b1a>` **(** :ref:`IBuildLogParser<interfacewellfired_peek_generator_buildreportgeneration_parsers_ibuildlogparser>` logParser, :ref:`IPrefabExtractor<interfacewellfired_peek_generator_buildreportgeneration_utils_iprefabextractor>` prefabExtractor, :ref:`IAssetsProcessor<interfacewellfired_peek_generator_buildreportgeneration_utils_iassetsprocessor>` assetsProcessor, :ref:`IBuildSettingsInjector<interfacewellfired_peek_generator_buildreportgeneration_utils_ibuildsettingsinjector>` buildSettingsInjector **)**   |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
-
-.. _classwellfired_peek_generator_generatortools_1a68e6eabbea45848348e4388fcf00d336:
-
-- :ref:`IScenesInformation<interfacewellfired_peek_generator_platformtools_iscenesinformation>` **ScenesInformation** **{** get; set; **}**
 
 .. _classwellfired_peek_generator_generatortools_1a94e9172903d67a3fac0b7df966d80d77:
 
@@ -55,7 +49,7 @@ Breakdown
 
 - :ref:`IBuildLogParser<interfacewellfired_peek_generator_buildreportgeneration_parsers_ibuildlogparser>` **LogParser** **{** get; set; **}**
 
-.. _classwellfired_peek_generator_generatortools_1af1d2a4f98a4571ecedf490d054dc8a61:
+.. _classwellfired_peek_generator_generatortools_1a53f16f96cd60ca306a88fdcdac0f9b1a:
 
--  **GeneratorTools** **(** :ref:`IBuildLogParser<interfacewellfired_peek_generator_buildreportgeneration_parsers_ibuildlogparser>` logParser, :ref:`IScenesInformation<interfacewellfired_peek_generator_platformtools_iscenesinformation>` scenesInformation, :ref:`IPrefabExtractor<interfacewellfired_peek_generator_buildreportgeneration_utils_iprefabextractor>` prefabExtractor, :ref:`IAssetsProcessor<interfacewellfired_peek_generator_buildreportgeneration_utils_iassetsprocessor>` assetsProcessor, :ref:`IBuildSettingsInjector<interfacewellfired_peek_generator_buildreportgeneration_utils_ibuildsettingsinjector>` buildSettingsInjector **)**
+-  **GeneratorTools** **(** :ref:`IBuildLogParser<interfacewellfired_peek_generator_buildreportgeneration_parsers_ibuildlogparser>` logParser, :ref:`IPrefabExtractor<interfacewellfired_peek_generator_buildreportgeneration_utils_iprefabextractor>` prefabExtractor, :ref:`IAssetsProcessor<interfacewellfired_peek_generator_buildreportgeneration_utils_iassetsprocessor>` assetsProcessor, :ref:`IBuildSettingsInjector<interfacewellfired_peek_generator_buildreportgeneration_utils_ibuildsettingsinjector>` buildSettingsInjector **)**
 

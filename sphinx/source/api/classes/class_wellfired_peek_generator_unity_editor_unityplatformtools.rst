@@ -27,9 +27,9 @@ Properties
 +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 |string                                                                                              |:ref:`StreamingAssetsLocation<classwellfired_peek_generator_unity_editor_unityplatformtools_1a9333031afddca87b1dc7fc3c5a7b6677>` **{** get; set; **}**   |
 +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IScenesInformation<interfacewellfired_peek_generator_platformtools_iscenesinformation>`       |:ref:`ScenesInformation<classwellfired_peek_generator_unity_editor_unityplatformtools_1a53355af0f1cc8696f58aa55463df5bf8>` **{** get; set; **}**         |
-+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`IPluginAnalyzer<interfacewellfired_peek_generator_platformtools_ipluginanalyzer>`             |:ref:`PluginAnalyzer<classwellfired_peek_generator_unity_editor_unityplatformtools_1a876f97dfbb021f00fd4f665b12514ede>` **{** get; set; **}**            |
++----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`ISceneProcessor<interfacewellfired_peek_generator_platformtools_isceneprocessor>`             |:ref:`SceneProcessor<classwellfired_peek_generator_unity_editor_unityplatformtools_1a47d7609b2dbc525460a9e8c7862c97e1>` **{** get; set; **}**            |
 +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`IMainThreadRunner<interfacewellfired_peek_generator_platformtools_imainthreadrunner>`         |:ref:`MainThreadRunner<classwellfired_peek_generator_unity_editor_unityplatformtools_1ae647c65ba3caa4d035f87ce5cd1dcce2>` **{** get; set; **}**          |
 +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -37,13 +37,13 @@ Properties
 Public Methods
 ---------------
 
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`LockAssemblyReload<classwellfired_peek_generator_unity_editor_unityplatformtools_1aed217882cc460c382941d0b10c97ea14>` **(**  **)**                          |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`UnlockAssemblyReload<classwellfired_peek_generator_unity_editor_unityplatformtools_1a3db13d1b32182fa555e3e7411d008726>` **(**  **)**                        |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`UnityPlatformTools<classwellfired_peek_generator_unity_editor_unityplatformtools_1a8374c4a420ad5cf21c918727f5ffc3e8>` **(** BuildTarget buildTarget **)**   |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`LockAssemblyReload<classwellfired_peek_generator_unity_editor_unityplatformtools_1aed217882cc460c382941d0b10c97ea14>` **(**  **)**     |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`UnlockAssemblyReload<classwellfired_peek_generator_unity_editor_unityplatformtools_1a3db13d1b32182fa555e3e7411d008726>` **(**  **)**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`UnityPlatformTools<classwellfired_peek_generator_unity_editor_unityplatformtools_1a42e9700f56c3ceb33695ae483021b5d5>` **(**  **)**     |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -68,13 +68,13 @@ Breakdown
 
 - string **StreamingAssetsLocation** **{** get; set; **}**
 
-.. _classwellfired_peek_generator_unity_editor_unityplatformtools_1a53355af0f1cc8696f58aa55463df5bf8:
-
-- :ref:`IScenesInformation<interfacewellfired_peek_generator_platformtools_iscenesinformation>` **ScenesInformation** **{** get; set; **}**
-
 .. _classwellfired_peek_generator_unity_editor_unityplatformtools_1a876f97dfbb021f00fd4f665b12514ede:
 
 - :ref:`IPluginAnalyzer<interfacewellfired_peek_generator_platformtools_ipluginanalyzer>` **PluginAnalyzer** **{** get; set; **}**
+
+.. _classwellfired_peek_generator_unity_editor_unityplatformtools_1a47d7609b2dbc525460a9e8c7862c97e1:
+
+- :ref:`ISceneProcessor<interfacewellfired_peek_generator_platformtools_isceneprocessor>` **SceneProcessor** **{** get; set; **}**
 
 .. _classwellfired_peek_generator_unity_editor_unityplatformtools_1ae647c65ba3caa4d035f87ce5cd1dcce2:
 
@@ -88,7 +88,7 @@ Breakdown
 
 - void **UnlockAssemblyReload** **(**  **)**
 
-.. _classwellfired_peek_generator_unity_editor_unityplatformtools_1a8374c4a420ad5cf21c918727f5ffc3e8:
+.. _classwellfired_peek_generator_unity_editor_unityplatformtools_1a42e9700f56c3ceb33695ae483021b5d5:
 
--  **UnityPlatformTools** **(** BuildTarget buildTarget **)**
+-  **UnityPlatformTools** **(**  **)**
 

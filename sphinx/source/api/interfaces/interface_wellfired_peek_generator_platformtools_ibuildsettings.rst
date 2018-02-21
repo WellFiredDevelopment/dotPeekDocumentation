@@ -16,8 +16,6 @@ Properties
 +--------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |string                                                                                                        |:ref:`UnityVersion<interfacewellfired_peek_generator_platformtools_ibuildsettings_1a13e09f678a6abc4f3ed0c691422261d6>` **{** get; set; **}**                 |
 +--------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Platform                                                                                                      |:ref:`Platform<interfacewellfired_peek_generator_platformtools_ibuildsettings_1ac52442e0e2629489f837086f537f367a>` **{** get; set; **}**                     |
-+--------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |List< string >                                                                                                |:ref:`CompileDirectives<interfacewellfired_peek_generator_platformtools_ibuildsettings_1a6c901aabf919c08c33cc21334be1d35b>` **{** get; set; **}**            |
 +--------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`IPlatformSettingsProvider<interfacewellfired_peek_generator_platformtools_iplatformsettingsprovider>`   |:ref:`AndroidSettingsProvider<interfacewellfired_peek_generator_platformtools_ibuildsettings_1a7077c5a6474cdfd598afa2adedd87240>` **{** get; set; **}**      |
@@ -33,10 +31,6 @@ Breakdown
 .. _interfacewellfired_peek_generator_platformtools_ibuildsettings_1a13e09f678a6abc4f3ed0c691422261d6:
 
 - string **UnityVersion** **{** get; set; **}**
-
-.. _interfacewellfired_peek_generator_platformtools_ibuildsettings_1ac52442e0e2629489f837086f537f367a:
-
-- Platform **Platform** **{** get; set; **}**
 
 .. _interfacewellfired_peek_generator_platformtools_ibuildsettings_1a6c901aabf919c08c33cc21334be1d35b:
 

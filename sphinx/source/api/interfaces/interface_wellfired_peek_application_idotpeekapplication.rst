@@ -10,46 +10,35 @@ Description
 
 
 
-Properties
------------
-
-+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IBuildReportStorage<interfacewellfired_peek_generator_storage_ibuildreportstorage>`   |:ref:`BuildReportStorage<interfacewellfired_peek_application_idotpeekapplication_1a5c96f7036e276962bb5b0908a6ed8513>` **{** get; set; **}**     |
-+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IPlatformTools<interfacewellfired_peek_generator_platformtools_iplatformtools>`       |:ref:`PlatformTools<interfacewellfired_peek_application_idotpeekapplication_1ab5c1a17d5f300ead9c0263922774732c>` **{** get; set; **}**          |
-+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IBuildReportGenerator<interfacewellfired_peek_generator_ibuildreportgenerator>`       |:ref:`BuildReportGenerator<interfacewellfired_peek_application_idotpeekapplication_1af72ef28a99e8017959329c23d53e07eb>` **{** get; set; **}**   |
-+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IStorage<interfacewellfired_peek_viewmodel_datastorage_istorage>`                     |:ref:`Storage<interfacewellfired_peek_application_idotpeekapplication_1a635883b012f03f546502f4b1fe23dfe0>` **{** get; set; **}**                |
-+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-
 Public Methods
 ---------------
 
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`Launch<interfacewellfired_peek_application_idotpeekapplication_1a40d42ed4c291b49503d8aa782651d3ad>` **(** string companyName, string applicationName, string applicationTitle **)**   |
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`PreProcessBuild<interfacewellfired_peek_application_idotpeekapplication_1aa9628494be09494d3965b34c73ad27d3>` **(** Platform platform **)**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`PostProcessBuild<interfacewellfired_peek_application_idotpeekapplication_1a903156fe26b21ab3bd59be08b5530ca4>` **(**  **)**                   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`PostProcessScene<interfacewellfired_peek_application_idotpeekapplication_1a81026ea3e37f6ef77f5f617fcdb3783d>` **(** string scenePath **)**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`Launch<interfacewellfired_peek_application_idotpeekapplication_1a82ac9f29ad8917033680c91904075661>` **(**  **)**                             |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _interfacewellfired_peek_application_idotpeekapplication_1a5c96f7036e276962bb5b0908a6ed8513:
+.. _interfacewellfired_peek_application_idotpeekapplication_1aa9628494be09494d3965b34c73ad27d3:
 
-- :ref:`IBuildReportStorage<interfacewellfired_peek_generator_storage_ibuildreportstorage>` **BuildReportStorage** **{** get; set; **}**
+- void **PreProcessBuild** **(** Platform platform **)**
 
-.. _interfacewellfired_peek_application_idotpeekapplication_1ab5c1a17d5f300ead9c0263922774732c:
+.. _interfacewellfired_peek_application_idotpeekapplication_1a903156fe26b21ab3bd59be08b5530ca4:
 
-- :ref:`IPlatformTools<interfacewellfired_peek_generator_platformtools_iplatformtools>` **PlatformTools** **{** get; set; **}**
+- void **PostProcessBuild** **(**  **)**
 
-.. _interfacewellfired_peek_application_idotpeekapplication_1af72ef28a99e8017959329c23d53e07eb:
+.. _interfacewellfired_peek_application_idotpeekapplication_1a81026ea3e37f6ef77f5f617fcdb3783d:
 
-- :ref:`IBuildReportGenerator<interfacewellfired_peek_generator_ibuildreportgenerator>` **BuildReportGenerator** **{** get; set; **}**
+- void **PostProcessScene** **(** string scenePath **)**
 
-.. _interfacewellfired_peek_application_idotpeekapplication_1a635883b012f03f546502f4b1fe23dfe0:
+.. _interfacewellfired_peek_application_idotpeekapplication_1a82ac9f29ad8917033680c91904075661:
 
-- :ref:`IStorage<interfacewellfired_peek_viewmodel_datastorage_istorage>` **Storage** **{** get; set; **}**
-
-.. _interfacewellfired_peek_application_idotpeekapplication_1a40d42ed4c291b49503d8aa782651d3ad:
-
-- void **Launch** **(** string companyName, string applicationName, string applicationTitle **)**
+- void **Launch** **(**  **)**
 

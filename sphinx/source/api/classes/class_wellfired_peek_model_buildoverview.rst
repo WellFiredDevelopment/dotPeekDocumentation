@@ -30,6 +30,8 @@ Public Properties
 +---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+
 |Platform                                                                                           |:ref:`Platform<classwellfired_peek_model_buildoverview_1ad2eeb0e2b029bf132fde1f0dba6fdb21>`                       |
 +---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+
+|long                                                                                               |:ref:`BuildDuration<classwellfired_peek_model_buildoverview_1a62e96d765ef28ad4a8948a095c6f941c>`                  |
++---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+
 |readonly List< :ref:`AssetTypeOverview<classwellfired_peek_model_assettypeoverview>` >             |:ref:`AssetTypeOverviews<classwellfired_peek_model_buildoverview_1af0c4fdf144dce11d7e9c08de51b21e20>`             |
 +---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+
 
@@ -76,6 +78,14 @@ Breakdown
 .. _classwellfired_peek_model_buildoverview_1ad2eeb0e2b029bf132fde1f0dba6fdb21:
 
 - Platform **Platform** 
+
+.. _classwellfired_peek_model_buildoverview_1a62e96d765ef28ad4a8948a095c6f941c:
+
+- long **BuildDuration** 
+
+    **Description**
+
+        Duration of the build in milliseconds 
 
 .. _classwellfired_peek_model_buildoverview_1af0c4fdf144dce11d7e9c08de51b21e20:
 

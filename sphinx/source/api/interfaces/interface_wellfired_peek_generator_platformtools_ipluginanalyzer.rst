@@ -13,14 +13,14 @@ Description
 Public Methods
 ---------------
 
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`IsCompatibleWithPlatform<interfacewellfired_peek_generator_platformtools_ipluginanalyzer_1a3dede1b398ea083bdab52f13430f0a31>` **(** string path **)**   |
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|bool         |:ref:`IsCompatibleWithPlatform<interfacewellfired_peek_generator_platformtools_ipluginanalyzer_1a1308d6cd2ddb22f48064f35ccea32780>` **(** string path, Platform platform **)**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _interfacewellfired_peek_generator_platformtools_ipluginanalyzer_1a3dede1b398ea083bdab52f13430f0a31:
+.. _interfacewellfired_peek_generator_platformtools_ipluginanalyzer_1a1308d6cd2ddb22f48064f35ccea32780:
 
-- bool **IsCompatibleWithPlatform** **(** string path **)**
+- bool **IsCompatibleWithPlatform** **(** string path, Platform platform **)**
 

@@ -26,9 +26,9 @@ Properties
 +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 |string                                                                                              |:ref:`StreamingAssetsLocation<interfacewellfired_peek_generator_platformtools_iplatformtools_1ad5af2214530801d2baedc6ca50b6a851>` **{** get; set; **}**   |
 +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IScenesInformation<interfacewellfired_peek_generator_platformtools_iscenesinformation>`       |:ref:`ScenesInformation<interfacewellfired_peek_generator_platformtools_iplatformtools_1aad8b0e5df87be76cc32433e7401aec0a>` **{** get; set; **}**         |
-+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`IPluginAnalyzer<interfacewellfired_peek_generator_platformtools_ipluginanalyzer>`             |:ref:`PluginAnalyzer<interfacewellfired_peek_generator_platformtools_iplatformtools_1a3b98f6beee7f210791d53ad4004fedd1>` **{** get; set; **}**            |
++----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`ISceneProcessor<interfacewellfired_peek_generator_platformtools_isceneprocessor>`             |:ref:`SceneProcessor<interfacewellfired_peek_generator_platformtools_iplatformtools_1aefb1fe4ff1305f55a2897c05f54893b4>` **{** get; set; **}**            |
 +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
@@ -67,13 +67,13 @@ Breakdown
 
 - string **StreamingAssetsLocation** **{** get; set; **}**
 
-.. _interfacewellfired_peek_generator_platformtools_iplatformtools_1aad8b0e5df87be76cc32433e7401aec0a:
-
-- :ref:`IScenesInformation<interfacewellfired_peek_generator_platformtools_iscenesinformation>` **ScenesInformation** **{** get; set; **}**
-
 .. _interfacewellfired_peek_generator_platformtools_iplatformtools_1a3b98f6beee7f210791d53ad4004fedd1:
 
 - :ref:`IPluginAnalyzer<interfacewellfired_peek_generator_platformtools_ipluginanalyzer>` **PluginAnalyzer** **{** get; set; **}**
+
+.. _interfacewellfired_peek_generator_platformtools_iplatformtools_1aefb1fe4ff1305f55a2897c05f54893b4:
+
+- :ref:`ISceneProcessor<interfacewellfired_peek_generator_platformtools_isceneprocessor>` **SceneProcessor** **{** get; set; **}**
 
 .. _interfacewellfired_peek_generator_platformtools_iplatformtools_1a464aff99360862de7b05b4a41b1a4a59:
 

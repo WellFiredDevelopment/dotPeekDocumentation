@@ -16,20 +16,14 @@ Description
 Public Methods
 ---------------
 
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`PluginAnalyzer<classwellfired_peek_generator_unity_editor_pluginanalyzer_1aeb2ae54305da41996a86587f0d8b0082>` **(** Platform platform **)**       |
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`IsCompatibleWithPlatform<classwellfired_peek_generator_unity_editor_pluginanalyzer_1a39a04f01f5142d400ce4329a9434a8d1>` **(** string path **)**   |
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|bool         |:ref:`IsCompatibleWithPlatform<classwellfired_peek_generator_unity_editor_pluginanalyzer_1af1bb5141cb4a676e220a84f6b7b47bab>` **(** string path, Platform platform **)**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_peek_generator_unity_editor_pluginanalyzer_1aeb2ae54305da41996a86587f0d8b0082:
+.. _classwellfired_peek_generator_unity_editor_pluginanalyzer_1af1bb5141cb4a676e220a84f6b7b47bab:
 
--  **PluginAnalyzer** **(** Platform platform **)**
-
-.. _classwellfired_peek_generator_unity_editor_pluginanalyzer_1a39a04f01f5142d400ce4329a9434a8d1:
-
-- bool **IsCompatibleWithPlatform** **(** string path **)**
+- bool **IsCompatibleWithPlatform** **(** string path, Platform platform **)**
 
