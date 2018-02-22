@@ -4,8 +4,8 @@ Settings
 ========
 
 The settings page is accessible from the **Settings** button on the top of .Peek window. Some settings are personal settings,
-which means they are saved in the folder *[Unity Project]/.wellfired* which should be ignored from your VCS. Some settings are
-team shared and are saved in *[Unity Project]/WellFired* which should be added to your VCS repository.
+which means they are saved in the folder *[Unity Project]/.wellfired* which should be ignored from your VCS. Some settings are team shared and are saved in *[Unity Project]/WellFired* which should be added to your VCS 
+repository, they are marked with |team|.
 
 .. tip::   Note that these settings can be controlled
            programmatically if you want to enforce .Peek behaviour on different computers (for Continuous Integration for example).
@@ -21,13 +21,24 @@ Automatically open
    This is a personal setting.
 
 Build reports location
-   This is the location where reports are saved. You can indicate either an absolute path, or a relative path. Relative paths root folder
-   is your Unity project folder (the one containing Assets/ folder). Different Unity project can save their reports in the same
-   folder. Indeed, .Peek will create a subfolder with the GUID it assigned to your Unity project. The GUID is a team shared 
-   setting saved in *[Unity Project]/WellFired*.
+   This is the location where reports are saved.
 
-   Relative paths are team shared. Therefore, if you input *"../BuildReports"* as report location, then all of your 
-   team members will have their build reports saved in *[Unity Project]/../BuildReports*. 
+   * |team| Relative paths are team shared. Therefore, if you input *"../BuildReports"* as report location, then all of your 
+     team members will have their build reports saved in *[Unity Project]/../BuildReports*. 
    
-   If the path is an absolute one, then it will not affect other team members reports location.
-   Note that if you indicate a location inside the Unity project, it will be automatically converted to a relative location.
+   * Absolute path are personal, then it will not affect other team members reports location.
+     Note that if you indicate a location inside the Unity project, it will be automatically converted to a relative location.
+
+   .. tip:: Different Unity project can save their reports in the same folder. Indeed, .Peek will create a subfolder with 
+            the GUID it assigned to your Unity project. The GUID is a team shared setting.
+
+Track VCS version |team|
+   If enable and SVN or GIT is installed on your computer, the version of the commit you are building will appear in the report.
+
+   If your workspace differed with the VCS version, then *-unsync* will be added to the version (such as : **Commit Id** *4baa424-unsync*).
+
+   Windows users may need to ensure these VCS are installed on the command line. Computers not supporting it will simply display
+   **Commit Id** *unknow* no matter this option is enabled or not.
+
+.. |team| image:: images/settings-page/team.png
+   :align: bottom

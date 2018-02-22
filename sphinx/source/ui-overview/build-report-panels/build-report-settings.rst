@@ -1,4 +1,4 @@
-.. _doc_ui-overview_build-report-settings:
+
 
 Build Settings
 ==============

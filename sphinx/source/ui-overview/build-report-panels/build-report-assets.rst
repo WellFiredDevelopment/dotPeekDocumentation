@@ -8,7 +8,7 @@ These two panels give you a detailed list of the assets included or not in your 
 .. image:: images/build-report-assets/assets.png
 
 Assets Information
------------------
+------------------
 
 The **Total Size** on top of the list is the sum of all the assets *Imported Size*.
 

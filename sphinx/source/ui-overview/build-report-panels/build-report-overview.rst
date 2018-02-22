@@ -19,8 +19,8 @@ Build Duration
               programmatically change these settings, see XXXXXXXXX
 
 Commit Id
-   If your Unity project is linked to a VCS repository, then the commit id at build time will be saved and display here. Note that .Peek supports
-   only GIT at the moment.
+   If your Unity project is linked to a VCS repository, then the commit id at build time will be saved and display here. Note
+   that .Peek supports only GIT and SVN at the moment. Windows users may need to ensure these VCS are installed on the command line.
 
 Platform
    The platform the build was done for. For the moment .Peek support generating build reports only for MacOS, Linux, Windows, Android and iOS.

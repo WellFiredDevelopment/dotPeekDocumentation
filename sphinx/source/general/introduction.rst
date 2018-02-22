@@ -23,7 +23,8 @@ Here a list of the core features :
 * Provides a list of unused assets for each builds.
 * Provide the possibility to share build reports on a VCS, or to save it in different location for each team member.
 * Possibility to run build generation silently or to totally shut it off.
-* Very responsive UI, even for projects with a large list of assets, thanks to the usage of `.Guacamole <https://github.com/ArtOfSettling/.Guacamole>`_, an open source MVVM framework for Unity.
+* Very responsive UI, even for projects with a large amount of assets, thanks to the usage of `.Guacamole <https://github.com/ArtOfSettling/.Guacamole>`_, 
+  an open source MVVM framework for Unity.
 
 About the documentation
 -----------------------
