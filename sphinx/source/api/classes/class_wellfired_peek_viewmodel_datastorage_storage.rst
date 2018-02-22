@@ -19,6 +19,8 @@ Properties
 +--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`OptionsProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy>`           |:ref:`Options<classwellfired_peek_viewmodel_datastorage_storage_1ae1d687bf184d2f1f239d174410bc5c4b>` **{** get; set; **}**                  |
 +--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`TeamOptionsProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_teamoptionsproxy>`   |:ref:`TeamOptions<classwellfired_peek_viewmodel_datastorage_storage_1aca4a39abe43789ef386d57a67dfcb3e8>` **{** get; set; **}**              |
++--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`ProjectInfoProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_projectinfoproxy>`   |:ref:`ProjectInfo<classwellfired_peek_viewmodel_datastorage_storage_1a5bbbc805a7a82899d6aaf3f48ea68dad>` **{** get; set; **}**              |
 +--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 |string                                                                                            |:ref:`BuildReportsRootedPath<classwellfired_peek_viewmodel_datastorage_storage_1ad471432fd7e8190dc86803769ddf9abf>` **{** get; set; **}**   |
@@ -39,6 +41,10 @@ Breakdown
 .. _classwellfired_peek_viewmodel_datastorage_storage_1ae1d687bf184d2f1f239d174410bc5c4b:
 
 - :ref:`OptionsProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy>` **Options** **{** get; set; **}**
+
+.. _classwellfired_peek_viewmodel_datastorage_storage_1aca4a39abe43789ef386d57a67dfcb3e8:
+
+- :ref:`TeamOptionsProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_teamoptionsproxy>` **TeamOptions** **{** get; set; **}**
 
 .. _classwellfired_peek_viewmodel_datastorage_storage_1a5bbbc805a7a82899d6aaf3f48ea68dad:
 

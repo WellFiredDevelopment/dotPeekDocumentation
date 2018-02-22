@@ -25,6 +25,8 @@ Properties
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 |bool         |:ref:`AutomaticallyShowReportAfterBuild<classwellfired_peek_viewmodel_settings_1a75722108f47f6ca2cb0952fa1afcbf38>` **{** get; set; **}**   |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+|bool         |:ref:`TrackVCSVersion<classwellfired_peek_viewmodel_settings_1ab3d313e1f18b222263c63c7073baebf5>` **{** get; set; **}**                     |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 |string       |:ref:`DisplayedBuildReportPath<classwellfired_peek_viewmodel_settings_1ade217231d9addcf23ce5e343bf592f71>` **{** get; set; **}**            |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 |string       |:ref:`BuildReportPath<classwellfired_peek_viewmodel_settings_1ad5fa37c2ca3bd73b9adab17b322463ff>` **{** get; set; **}**                     |
@@ -59,6 +61,10 @@ Breakdown
 .. _classwellfired_peek_viewmodel_settings_1a75722108f47f6ca2cb0952fa1afcbf38:
 
 - bool **AutomaticallyShowReportAfterBuild** **{** get; set; **}**
+
+.. _classwellfired_peek_viewmodel_settings_1ab3d313e1f18b222263c63c7073baebf5:
+
+- bool **TrackVCSVersion** **{** get; set; **}**
 
 .. _classwellfired_peek_viewmodel_settings_1ade217231d9addcf23ce5e343bf592f71:
 
