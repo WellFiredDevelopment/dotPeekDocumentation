@@ -13,14 +13,14 @@ Description
 Public Static Methods
 ----------------------
 
-+------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+
-|:ref:`IVCS<interfacewellfired_peek_application_vcs_ivcs>`   |:ref:`GetRelevantVCS<classwellfired_peek_application_vcs_vcsutils_1a39772d7b5852845fba8558bb55ba4d60>` **(**  **)**   |
-+------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+
+|:ref:`IVCS<interfacewellfired_peek_application_vcs_ivcs>`   |:ref:`GetVCSInUse<classwellfired_peek_application_vcs_vcsutils_1adb78d4f52d86d98e72c2966141208bf3>` **(**  **)**   |
++------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_peek_application_vcs_vcsutils_1a39772d7b5852845fba8558bb55ba4d60:
+.. _classwellfired_peek_application_vcs_vcsutils_1adb78d4f52d86d98e72c2966141208bf3:
 
-- :ref:`IVCS<interfacewellfired_peek_application_vcs_ivcs>` **GetRelevantVCS** **(**  **)**
+- :ref:`IVCS<interfacewellfired_peek_application_vcs_ivcs>` **GetVCSInUse** **(**  **)**
 
