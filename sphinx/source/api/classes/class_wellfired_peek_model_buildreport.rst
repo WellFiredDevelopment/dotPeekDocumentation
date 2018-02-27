@@ -43,6 +43,13 @@ Public Methods
 |override string   |:ref:`ToString<classwellfired_peek_model_buildreport_1a393f199efeae146d60a4e859adeef848>` **(**  **)**   |
 +------------------+---------------------------------------------------------------------------------------------------------+
 
+Public Static Methods
+----------------------
+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`GetBuildReportFileName<classwellfired_peek_model_buildreport_1ab325edf50c0acd2790005ef3fe97dbcd>` **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` report **)**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
 Breakdown
 ----------
 
@@ -81,4 +88,8 @@ Breakdown
 .. _classwellfired_peek_model_buildreport_1a393f199efeae146d60a4e859adeef848:
 
 - override string **ToString** **(**  **)**
+
+.. _classwellfired_peek_model_buildreport_1ab325edf50c0acd2790005ef3fe97dbcd:
+
+- string **GetBuildReportFileName** **(** :ref:`BuildReport<classwellfired_peek_model_buildreport>` report **)**
 
