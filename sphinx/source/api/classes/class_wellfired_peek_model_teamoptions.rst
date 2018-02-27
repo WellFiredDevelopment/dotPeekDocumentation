@@ -20,6 +20,10 @@ Public Properties
 +---------------+------------------------------------------------------------------------------------------------------------+
 |bool           |:ref:`TrackVCSVersion<classwellfired_peek_model_teamoptions_1adffa8f7988ac467f1637233b39138503>`            |
 +---------------+------------------------------------------------------------------------------------------------------------+
+|int            |:ref:`PrebuildCallbackOrder<classwellfired_peek_model_teamoptions_1a6844c88ff00e1e3bf6c456189f6ee4b9>`      |
++---------------+------------------------------------------------------------------------------------------------------------+
+|int            |:ref:`PostbuildCallbackOrder<classwellfired_peek_model_teamoptions_1a3d64bfeae8ad609996ffb7f727f3553e>`     |
++---------------+------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -42,6 +46,14 @@ Breakdown
 .. _classwellfired_peek_model_teamoptions_1adffa8f7988ac467f1637233b39138503:
 
 - bool **TrackVCSVersion** 
+
+.. _classwellfired_peek_model_teamoptions_1a6844c88ff00e1e3bf6c456189f6ee4b9:
+
+- int **PrebuildCallbackOrder** 
+
+.. _classwellfired_peek_model_teamoptions_1a3d64bfeae8ad609996ffb7f727f3553e:
+
+- int **PostbuildCallbackOrder** 
 
 .. _classwellfired_peek_model_teamoptions_1aa8772011c89f4f57955e8994b5cad7fd:
 

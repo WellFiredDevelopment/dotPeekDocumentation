@@ -10,6 +10,13 @@ Description
 
 
 
+protected-attrib
+-----------------
+
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+|readonly IDataStorageService   |:ref:`StorageService<classwellfired_peek_viewmodel_datastorage_teamdataversionupdaters_teamdataversionupdater_1aca089f258847878e41a48dc00adaeb6d>`    |
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+
 Properties
 -----------
 
@@ -46,6 +53,10 @@ Public Methods
 
 Breakdown
 ----------
+
+.. _classwellfired_peek_viewmodel_datastorage_teamdataversionupdaters_teamdataversionupdater_1aca089f258847878e41a48dc00adaeb6d:
+
+- readonly IDataStorageService **StorageService** 
 
 .. _classwellfired_peek_viewmodel_datastorage_teamdataversionupdaters_teamdataversionupdater_1a26757467ef6248c98905d9c5546488fe:
 

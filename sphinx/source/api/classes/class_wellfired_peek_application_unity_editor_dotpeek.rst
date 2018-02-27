@@ -20,6 +20,8 @@ Properties
 +--------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`IVCS<interfacewellfired_peek_application_vcs_ivcs>`                             |:ref:`CustomVCS<classwellfired_peek_application_unity_editor_dotpeek_1a381e1d91dc2dff79988fbc20fa60f8bc>` **{** get; set; **}**            |
 +--------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`Storage<classwellfired_peek_viewmodel_datastorage_storage>`                     |:ref:`Storage<classwellfired_peek_application_unity_editor_dotpeek_1a6a07d42db1939a49cee805130f110e30>` **{** get; set; **}**              |
++--------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -35,4 +37,8 @@ Breakdown
 .. _classwellfired_peek_application_unity_editor_dotpeek_1a381e1d91dc2dff79988fbc20fa60f8bc:
 
 - :ref:`IVCS<interfacewellfired_peek_application_vcs_ivcs>` **CustomVCS** **{** get; set; **}**
+
+.. _classwellfired_peek_application_unity_editor_dotpeek_1a6a07d42db1939a49cee805130f110e30:
+
+- :ref:`Storage<classwellfired_peek_viewmodel_datastorage_storage>` **Storage** **{** get; set; **}**
 
