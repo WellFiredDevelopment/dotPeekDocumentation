@@ -35,7 +35,7 @@ Build reports location
 Track VCS version |team|
    If enable and SVN or GIT is installed on your computer, the version of the commit you are building will appear in the report.
 
-   If your workspace differed with the VCS version, then *-unsync* will be added to the version (such as : **Commit Id** *4baa424-unsync*).
+   If not all your modification are committed, then *-unsync* will be added to the version (such as : **Commit Id** *4baa424-unsync*).
 
    Windows users may need to ensure these VCS are installed on the command line. Computers not supporting it will simply display
    **Commit Id** *unknow* no matter this option is enabled or not.

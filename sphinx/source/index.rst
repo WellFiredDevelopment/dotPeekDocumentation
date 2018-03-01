@@ -45,6 +45,14 @@ The main documentation for the site is organized into the following sections:
     ui-overview/settings-page
 
 .. toctree::
+    :maxdepth: 2
+    :caption: Advanced
+    :name: sec-advanced
+
+    advanced/programmatic-control
+    advanced/continuous-integration
+
+.. toctree::
    :maxdepth: 2
    :caption: Class API reference
    :name: sec-class-ref
