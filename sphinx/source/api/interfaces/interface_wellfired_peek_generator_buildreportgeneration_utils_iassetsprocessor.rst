@@ -13,14 +13,14 @@ Description
 Public Methods
 ---------------
 
-+---------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|List< :ref:`IAsset<interfacewellfired_peek_model_assets_iasset>` >   |:ref:`SortOutUsedAndUnusedAssets<interfacewellfired_peek_generator_buildreportgeneration_utils_iassetsprocessor_1ae83efcd0045ed1e353c5279d6f3aa6e7>` **(** List< :ref:`IAsset<interfacewellfired_peek_model_assets_iasset>` > usedAssets, List< :ref:`IScene<interfacewellfired_peek_model_assets_iscene>` > buildScenes, Platform platform **)**   |
-+---------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|List< :ref:`IAsset<interfacewellfired_peek_model_assets_iasset>` >   |:ref:`SortOutUsedAndUnusedAssets<interfacewellfired_peek_generator_buildreportgeneration_utils_iassetsprocessor_1ac23ed1cda743e6e4a96399c63a678408>` **(** List< :ref:`IAsset<interfacewellfired_peek_model_assets_iasset>` > usedAssets, List< :ref:`IScene<interfacewellfired_peek_model_assets_iscene>` > buildScenes, :ref:`FileSize<structwellfired_peek_data_filesize>` buildSize, Platform platform **)**   |
++---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _interfacewellfired_peek_generator_buildreportgeneration_utils_iassetsprocessor_1ae83efcd0045ed1e353c5279d6f3aa6e7:
+.. _interfacewellfired_peek_generator_buildreportgeneration_utils_iassetsprocessor_1ac23ed1cda743e6e4a96399c63a678408:
 
-- List< :ref:`IAsset<interfacewellfired_peek_model_assets_iasset>` > **SortOutUsedAndUnusedAssets** **(** List< :ref:`IAsset<interfacewellfired_peek_model_assets_iasset>` > usedAssets, List< :ref:`IScene<interfacewellfired_peek_model_assets_iscene>` > buildScenes, Platform platform **)**
+- List< :ref:`IAsset<interfacewellfired_peek_model_assets_iasset>` > **SortOutUsedAndUnusedAssets** **(** List< :ref:`IAsset<interfacewellfired_peek_model_assets_iasset>` > usedAssets, List< :ref:`IScene<interfacewellfired_peek_model_assets_iscene>` > buildScenes, :ref:`FileSize<structwellfired_peek_data_filesize>` buildSize, Platform platform **)**
 

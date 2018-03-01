@@ -24,3 +24,7 @@ Breakdown
 
 - string **GUID** **{** get; set; **}**
 
+    **Description**
+
+        This GUID is an identifier for .:ref:`Peek<namespacewellfired_peek>` accross all the team working in a specific :ref:`Unity<namespacewellfired_peek_unity>` project. This is used for example to saved build report in a specific subfolder, allowing different :ref:`Unity<namespacewellfired_peek_unity>` projects to save the reports in the same folder. 
+

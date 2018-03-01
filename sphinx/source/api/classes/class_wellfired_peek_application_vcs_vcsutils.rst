@@ -24,3 +24,7 @@ Breakdown
 
 - :ref:`IVCS<interfacewellfired_peek_application_vcs_ivcs>` **GetVCSInUse** **(**  **)**
 
+    **Description**
+
+        Detect which :ref:`VCS<namespacewellfired_peek_application_vcs>` is being used at the location the dll is being executed and return the relevant :ref:`IVCS<interfacewellfired_peek_application_vcs_ivcs>`. 
+

@@ -8,7 +8,7 @@ IDotPeekApplication
 Description
 ------------
 
-
+:ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>` can be considered as a .:ref:`Peek<namespacewellfired_peek>` build session, where all the information required to make a build report are collected. 
 
 Public Methods
 ---------------

@@ -29,7 +29,27 @@ Breakdown
 
 - bool **IsRepository** **(** string location **)**
 
+    **Description**
+
+        Detect if this :ref:`IVCSInspector<interfacewellfired_peek_application_vcs_ivcsinspector>` is compatible with the :ref:`VCS<namespacewellfired_peek_application_vcs>` used at the location specified. 
+
+    **Parameters**
+
+        +-------------+
+        |location     |
+        +-------------+
+        
 .. _classwellfired_peek_application_vcs_svn__vcs_svninspector_1aa2c71d4e59efeba8ed2283d8b6fee72a:
 
 - :ref:`RepositoryInfo<classwellfired_peek_application_vcs_repositoryinfo>` **GetRepositoryInfo** **(** string location **)**
 
+    **Description**
+
+        Get information about the state of the repository at the location specified. 
+
+    **Parameters**
+
+        +-------------+
+        |location     |
+        +-------------+
+        

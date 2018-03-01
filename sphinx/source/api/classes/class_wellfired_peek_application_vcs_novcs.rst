@@ -11,7 +11,7 @@ NoVCS
 Description
 ------------
 
-
+This is used when no :ref:`VCS<namespacewellfired_peek_application_vcs>` used by the project could be detected. 
 
 Public Methods
 ---------------
@@ -26,4 +26,8 @@ Breakdown
 .. _classwellfired_peek_application_vcs_novcs_1a5a8aa331db0f9467f2fc344e3bd9e715:
 
 - string **GetCommitId** **(**  **)**
+
+    **Description**
+
+        Provide the current commit id. 
 

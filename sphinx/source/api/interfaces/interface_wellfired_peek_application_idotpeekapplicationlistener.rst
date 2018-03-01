@@ -13,14 +13,24 @@ Description
 Public Methods
 ---------------
 
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`DoBuildGenerated<interfacewellfired_peek_application_idotpeekapplicationlistener_1a245e5a73e4f82cf05736ad5192614955>` **(** string path **)**   |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`DoBuildReportGenerated<interfacewellfired_peek_application_idotpeekapplicationlistener_1abd59598518875c5ab8435ddd5b61b767>` **(** string reportAbsolutePath **)**   |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _interfacewellfired_peek_application_idotpeekapplicationlistener_1a245e5a73e4f82cf05736ad5192614955:
+.. _interfacewellfired_peek_application_idotpeekapplicationlistener_1abd59598518875c5ab8435ddd5b61b767:
 
-- void **DoBuildGenerated** **(** string path **)**
+- void **DoBuildReportGenerated** **(** string reportAbsolutePath **)**
 
+    **Description**
+
+        This is called after the build report was generated and saved on the disk. 
+
+    **Parameters**
+
+        +---------------------+--------------------------------+
+        |reportAbsolutePath   |Location of the build report.   |
+        +---------------------+--------------------------------+
+        

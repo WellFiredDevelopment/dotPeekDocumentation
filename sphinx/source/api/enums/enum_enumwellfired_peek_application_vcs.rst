@@ -8,13 +8,13 @@ RepositoryStatus
 Description
 ------------
 
+Status of the repository 
 
-
-+---------------+
-|NotSync        |
-+---------------+
-|SyncToCommit   |
-+---------------+
-|SyncToHead     |
-+---------------+
++---------------+------------------------------------------------------------------------------------------------+
+|NotSync        |The repository contains modifications not pushed to the remote repository.                      |
++---------------+------------------------------------------------------------------------------------------------+
+|SyncToCommit   |The checked out version is not the latest one, but files does not contains any modification.    |
++---------------+------------------------------------------------------------------------------------------------+
+|SyncToHead     |The checked out version is the latest one, and files does not contains any modification.        |
++---------------+------------------------------------------------------------------------------------------------+
 

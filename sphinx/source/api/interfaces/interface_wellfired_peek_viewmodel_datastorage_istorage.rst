@@ -13,15 +13,15 @@ Description
 Properties
 -----------
 
-+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`OptionsProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy>`           |:ref:`Options<interfacewellfired_peek_viewmodel_datastorage_istorage_1ac70dd46d04ae94e5d1eda5332c9e9dab>` **{** get; set; **}**                  |
-+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`TeamOptionsProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_teamoptionsproxy>`   |:ref:`TeamOptions<interfacewellfired_peek_viewmodel_datastorage_istorage_1aba01e7f554a788e6a3cd5c53a87afc7f>` **{** get; set; **}**              |
-+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`ProjectInfoProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_projectinfoproxy>`   |:ref:`ProjectInfo<interfacewellfired_peek_viewmodel_datastorage_istorage_1a1c596c79f67d59b300372650f20b0b4c>` **{** get; set; **}**              |
-+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                            |:ref:`BuildReportsRootedPath<interfacewellfired_peek_viewmodel_datastorage_istorage_1acb4c31de0d95b7b679d17998e6c025a0>` **{** get; set; **}**   |
-+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`OptionsProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy>`           |:ref:`PersonalOptions<interfacewellfired_peek_viewmodel_datastorage_istorage_1a5d76d375fdd8c9f6fd496629f14196c8>` **{** get; set; **}**            |
++--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`TeamOptionsProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_teamoptionsproxy>`   |:ref:`TeamOptions<interfacewellfired_peek_viewmodel_datastorage_istorage_1aba01e7f554a788e6a3cd5c53a87afc7f>` **{** get; set; **}**                |
++--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`ProjectInfoProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_projectinfoproxy>`   |:ref:`ProjectInfo<interfacewellfired_peek_viewmodel_datastorage_istorage_1a1c596c79f67d59b300372650f20b0b4c>` **{** get; set; **}**                |
++--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                            |:ref:`BuildReportsAbsolutePath<interfacewellfired_peek_viewmodel_datastorage_istorage_1a2ba04a1155f6264e06d2cafc7b80e202>` **{** get; set; **}**   |
++--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -35,9 +35,9 @@ Public Methods
 Breakdown
 ----------
 
-.. _interfacewellfired_peek_viewmodel_datastorage_istorage_1ac70dd46d04ae94e5d1eda5332c9e9dab:
+.. _interfacewellfired_peek_viewmodel_datastorage_istorage_1a5d76d375fdd8c9f6fd496629f14196c8:
 
-- :ref:`OptionsProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy>` **Options** **{** get; set; **}**
+- :ref:`OptionsProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_optionsproxy>` **PersonalOptions** **{** get; set; **}**
 
 .. _interfacewellfired_peek_viewmodel_datastorage_istorage_1aba01e7f554a788e6a3cd5c53a87afc7f:
 
@@ -47,9 +47,9 @@ Breakdown
 
 - :ref:`ProjectInfoProxy<classwellfired_peek_viewmodel_datastorage_dataproxies_projectinfoproxy>` **ProjectInfo** **{** get; set; **}**
 
-.. _interfacewellfired_peek_viewmodel_datastorage_istorage_1acb4c31de0d95b7b679d17998e6c025a0:
+.. _interfacewellfired_peek_viewmodel_datastorage_istorage_1a2ba04a1155f6264e06d2cafc7b80e202:
 
-- string **BuildReportsRootedPath** **{** get; set; **}**
+- string **BuildReportsAbsolutePath** **{** get; set; **}**
 
 .. _interfacewellfired_peek_viewmodel_datastorage_istorage_1a58d015e32a50773af3d99ae0e733f419:
 

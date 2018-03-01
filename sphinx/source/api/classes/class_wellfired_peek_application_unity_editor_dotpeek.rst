@@ -11,7 +11,7 @@ DotPeek
 Description
 ------------
 
-
+This is a public wrapper around .:ref:`Peek<namespacewellfired_peek>` application. It gives access to different utilities allowing a total control of .:ref:`Peek<namespacewellfired_peek>`. 
 
 Properties
 -----------
@@ -23,9 +23,9 @@ Properties
 +---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`Storage<classwellfired_peek_viewmodel_datastorage_storage>`                            |:ref:`Storage<classwellfired_peek_application_unity_editor_dotpeek_1a6a07d42db1939a49cee805130f110e30>` **{** get; set; **}**              |
 +---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>`          |:ref:`CurrentApplication<classwellfired_peek_application_unity_editor_dotpeek_1aea375075bf499b7c4410e64f52bfecbc>` **{** get; set; **}**   |
-+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>`          |:ref:`NewApplication<classwellfired_peek_application_unity_editor_dotpeek_1a060d3530544a95556c42d4f9c5d0ccef>` **{** get; set; **}**       |
++---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>`          |:ref:`CurrentApplication<classwellfired_peek_application_unity_editor_dotpeek_1aea375075bf499b7c4410e64f52bfecbc>` **{** get; set; **}**   |
 +---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`DotPeek<classwellfired_peek_application_unity_editor_dotpeek>`                         |:ref:`Instance<classwellfired_peek_application_unity_editor_dotpeek_1ae8953869686231a60e38e0c1d274ae8a>` **{** get; set; **}**             |
 +---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
@@ -33,9 +33,9 @@ Properties
 Public Methods
 ---------------
 
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`DoBuildGenerated<classwellfired_peek_application_unity_editor_dotpeek_1a34172c6ad8cd394d1f3ae160dfdbde76>` **(** string path **)**   |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`DoBuildReportGenerated<classwellfired_peek_application_unity_editor_dotpeek_1a69ad8fbacf003021521a5dcff05e12a9>` **(** string reportAbsolutePath **)**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -44,27 +44,61 @@ Breakdown
 
 - :ref:`IDotPeekListener<interfacewellfired_peek_application_unity_editor_idotpeeklistener>` **Listener** **{** get; set; **}**
 
+    **Description**
+
+        Give access to .:ref:`Peek<namespacewellfired_peek>` callbacks, like when the report is generated and where it is stored for example. 
+
 .. _classwellfired_peek_application_unity_editor_dotpeek_1a381e1d91dc2dff79988fbc20fa60f8bc:
 
 - :ref:`IVCS<interfacewellfired_peek_application_vcs_ivcs>` **CustomVCS** **{** get; set; **}**
+
+    **Description**
+
+        Allows to provide a custom commit id to .:ref:`Peek<namespacewellfired_peek>` when it is generating the build report. 
 
 .. _classwellfired_peek_application_unity_editor_dotpeek_1a6a07d42db1939a49cee805130f110e30:
 
 - :ref:`Storage<classwellfired_peek_viewmodel_datastorage_storage>` **Storage** **{** get; set; **}**
 
-.. _classwellfired_peek_application_unity_editor_dotpeek_1aea375075bf499b7c4410e64f52bfecbc:
+    **Description**
 
-- :ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>` **CurrentApplication** **{** get; set; **}**
+        Allows to read or modify .:ref:`Peek<namespacewellfired_peek>` settings on the disk. 
 
 .. _classwellfired_peek_application_unity_editor_dotpeek_1a060d3530544a95556c42d4f9c5d0ccef:
 
 - :ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>` **NewApplication** **{** get; set; **}**
 
+    **Description**
+
+        Create a new :ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>` that will receive the different callbacks from the game engine when build is being processed. When a new session is required, then the previous one is garbage collected. 
+
+.. _classwellfired_peek_application_unity_editor_dotpeek_1aea375075bf499b7c4410e64f52bfecbc:
+
+- :ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>` **CurrentApplication** **{** get; set; **}**
+
+    **Description**
+
+        Returns the current :ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>`. 
+
 .. _classwellfired_peek_application_unity_editor_dotpeek_1ae8953869686231a60e38e0c1d274ae8a:
 
 - :ref:`DotPeek<classwellfired_peek_application_unity_editor_dotpeek>` **Instance** **{** get; set; **}**
 
-.. _classwellfired_peek_application_unity_editor_dotpeek_1a34172c6ad8cd394d1f3ae160dfdbde76:
+    **Description**
 
-- void **DoBuildGenerated** **(** string path **)**
+        Returns the only access point to :ref:`DotPeek<classwellfired_peek_application_unity_editor_dotpeek>`. 
 
+.. _classwellfired_peek_application_unity_editor_dotpeek_1a69ad8fbacf003021521a5dcff05e12a9:
+
+- void **DoBuildReportGenerated** **(** string reportAbsolutePath **)**
+
+    **Description**
+
+        This is called after the build report was generated and saved on the disk. 
+
+    **Parameters**
+
+        +---------------------+--------------------------------+
+        |reportAbsolutePath   |Location of the build report.   |
+        +---------------------+--------------------------------+
+        

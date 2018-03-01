@@ -27,3 +27,7 @@ Breakdown
 
 - string **GetCommitId** **(**  **)**
 
+    **Description**
+
+        Provide the current commit id. 
+
