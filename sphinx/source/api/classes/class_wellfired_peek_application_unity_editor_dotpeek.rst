@@ -16,19 +16,22 @@ This is a public wrapper around .:ref:`Peek<namespacewellfired_peek>` applicatio
 Properties
 -----------
 
-+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDotPeekListener<interfacewellfired_peek_application_unity_editor_idotpeeklistener>`   |:ref:`Listener<classwellfired_peek_application_unity_editor_dotpeek_1a6019ed665b7d0f4fa95065eaed9fc2dd>` **{** get; set; **}**             |
-+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IVCS<interfacewellfired_peek_application_vcs_ivcs>`                                    |:ref:`CustomVCS<classwellfired_peek_application_unity_editor_dotpeek_1a381e1d91dc2dff79988fbc20fa60f8bc>` **{** get; set; **}**            |
-+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`Storage<classwellfired_peek_viewmodel_datastorage_storage>`                            |:ref:`Storage<classwellfired_peek_application_unity_editor_dotpeek_1a6a07d42db1939a49cee805130f110e30>` **{** get; set; **}**              |
-+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>`          |:ref:`NewApplication<classwellfired_peek_application_unity_editor_dotpeek_1a060d3530544a95556c42d4f9c5d0ccef>` **{** get; set; **}**       |
-+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>`          |:ref:`CurrentApplication<classwellfired_peek_application_unity_editor_dotpeek_1aea375075bf499b7c4410e64f52bfecbc>` **{** get; set; **}**   |
-+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`DotPeek<classwellfired_peek_application_unity_editor_dotpeek>`                         |:ref:`Instance<classwellfired_peek_application_unity_editor_dotpeek_1ae8953869686231a60e38e0c1d274ae8a>` **{** get; set; **}**             |
-+---------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IDotPeekListener<interfacewellfired_peek_application_unity_editor_idotpeeklistener>`   |:ref:`Listener<classwellfired_peek_application_unity_editor_dotpeek_1a6019ed665b7d0f4fa95065eaed9fc2dd>` **{** get; set; **}**         |
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IVCS<interfacewellfired_peek_application_vcs_ivcs>`                                    |:ref:`CustomVCS<classwellfired_peek_application_unity_editor_dotpeek_1a381e1d91dc2dff79988fbc20fa60f8bc>` **{** get; set; **}**        |
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`Storage<classwellfired_peek_viewmodel_datastorage_storage>`                            |:ref:`Storage<classwellfired_peek_application_unity_editor_dotpeek_1a6a07d42db1939a49cee805130f110e30>` **{** get; set; **}**          |
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>`          |:ref:`NewApplication<classwellfired_peek_application_unity_editor_dotpeek_1a060d3530544a95556c42d4f9c5d0ccef>` **{** get; set; **}**   |
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+
+public-static-attrib
+---------------------
+
++--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+
+|:ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>`   |:ref:`CurrentApplication<classwellfired_peek_application_unity_editor_dotpeek_1aea375075bf499b7c4410e64f52bfecbc>`    |
++--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -74,19 +77,11 @@ Breakdown
 
 .. _classwellfired_peek_application_unity_editor_dotpeek_1aea375075bf499b7c4410e64f52bfecbc:
 
-- :ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>` **CurrentApplication** **{** get; set; **}**
+- :ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>` **CurrentApplication** 
 
     **Description**
 
         Returns the current :ref:`IDotPeekApplication<interfacewellfired_peek_application_idotpeekapplication>`. 
-
-.. _classwellfired_peek_application_unity_editor_dotpeek_1ae8953869686231a60e38e0c1d274ae8a:
-
-- :ref:`DotPeek<classwellfired_peek_application_unity_editor_dotpeek>` **Instance** **{** get; set; **}**
-
-    **Description**
-
-        Returns the only access point to :ref:`DotPeek<classwellfired_peek_application_unity_editor_dotpeek>`. 
 
 .. _classwellfired_peek_application_unity_editor_dotpeek_1a69ad8fbacf003021521a5dcff05e12a9:
 
