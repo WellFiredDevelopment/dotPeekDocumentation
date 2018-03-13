@@ -32,7 +32,7 @@ And then to provide this listener to .Peek :
 
 .. code-block:: c#
 
-            DotPeek.Instance.Listener = new DotPeekListener();	
+            DotPeek.Listener = new DotPeekListener();	
 
 Below is a whole functional usage example :
 
@@ -46,7 +46,7 @@ Below is a whole functional usage example :
         {
             static DotPeekInitializer()
             {
-                DotPeek.Instance.Listener = new DotPeekListener();		
+                DotPeek.Listener = new DotPeekListener();		
             }
 
             private class DotPeekListener : IDotPeekListener
@@ -96,7 +96,7 @@ The implementation of the static function being called in Unity :
         {
             static void PerformBuild ()
             {
-                DotPeek.Instance.CustomVCS = new DotPeekVCS();
+                DotPeek.CustomVCS = new DotPeekVCS();
 
                 string[] scenes = { "Assets/MyScene.unity" };
                 BuildPipeline.BuildPlayer(scenes, ...);

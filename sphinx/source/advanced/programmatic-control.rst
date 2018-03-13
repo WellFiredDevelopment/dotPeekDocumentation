@@ -20,20 +20,20 @@ To do so :
 
 .. code-block:: c#
 
-        DotPeek.Instance.Storage.PersonalOptions.BuildReportPath = "../DotPeekReports";
-        DotPeek.Instance.Storage.PersonalOptions.AutomaticallyShowReportAfterBuild = false;
+        DotPeek.Storage.PersonalOptions.BuildReportPath = "../DotPeekReports";
+        DotPeek.Storage.PersonalOptions.AutomaticallyShowReportAfterBuild = false;
 
 3. Access and modify your .Peek team-shared options :
 
 .. code-block:: c#
 
-        DotPeek.Instance.Storage.TeamOptions.TrackVCSVersion = false;
+        DotPeek.Storage.TeamOptions.TrackVCSVersion = false;
 
 4. Save your changes to ensure .Peek can access updated settings :
 
 .. code-block:: c#
 
-        DotPeek.Instance.Storage.Save();
+        DotPeek.Storage.Save();
 
 .. warning:: Saving step cannot be ommited. Indeed, it will ensure settings that were modified are written to the disk and
    are accessible to the whole .Peek application.
@@ -75,11 +75,11 @@ behaviour by :
 
 .. code-block:: c#
 
-        DotPeek.Instance.Storage.TeamOptions.PrebuildCallbackOrder = int.MinValue + 1;
-        DotPeek.Instance.Storage.TeamOptions.PostbuildCallbackOrder = int.MaxValue - 1;
+        DotPeek.Storage.TeamOptions.PrebuildCallbackOrder = int.MinValue + 1;
+        DotPeek.Storage.TeamOptions.PostbuildCallbackOrder = int.MaxValue - 1;
 
 4. Saving your changes to ensure .Peek can access updated settings :
 
 .. code-block:: c#
 
-        DotPeek.Instance.Storage.Save();
+        DotPeek.Storage.Save();
