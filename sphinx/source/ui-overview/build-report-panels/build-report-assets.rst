@@ -41,19 +41,19 @@ You can also filter the assets by type. You simply need to input ``t:[asset type
 simple search, like for example : ``car t:texture renault``. The values accepted are:
 
 t:texture
-   Displays files with extenstion : *.png*, *.tga*, *.psd*, *.tif*, *.jpg*, *.jpeg*, *.gif*, *.bmp*, *.iff*, *.pict*
+   Displays files with extention : *.png*, *.tga*, *.psd*, *.tif*, *.jpg*, *.jpeg*, *.gif*, *.bmp*, *.iff*, *.pict*
 
 t:audio
-   Displays files with extenstion : *.mp3*, *.ogg*, *.wav*, *.aiff*, *.aif*, *.mod*, *.it*, *.s3m*, *.xm*
+   Displays files with extention : *.mp3*, *.ogg*, *.wav*, *.aiff*, *.aif*, *.mod*, *.it*, *.s3m*, *.xm*
 
 t:model
-   Displays files with extenstion : *.fbx*, *.dae*, *.3ds*, *.dxf*, *.obj*, *.skp*, *.ma*, *.mb*, *.max*, *.c4d*, *.blend*
+   Displays files with extention : *.fbx*, *.dae*, *.3ds*, *.dxf*, *.obj*, *.skp*, *.ma*, *.mb*, *.max*, *.c4d*, *.blend*
 
 t:plugin
-   Displays files with extenstion : *.dll*, *.jar*, *.so*, *.aar*, *.a*
+   Displays files with extention : *.dll*, *.jar*, *.so*, *.aar*, *.a*
 
 t:shader
-   Displays files with extenstion : *.shader*, *.cginc*
+   Displays files with extention : *.shader*, *.cginc*
 
 These extensions are based on what is supported in Unity. Don't hesitate to create a pull request or open an issue on 
 Github if you find out relevant to add an extension here.
