@@ -112,7 +112,7 @@ The implementation of the static function being called in Unity :
             public string GetCommitId()
             {
                 var args = Environment.GetCommandLineArgs().ToList();
-                var optionPosition = Environment.GetCommandLineArgs().ToList().IndexOf("-VCS");
+                var optionPosition = args.IndexOf("-VCS");
                 var vcsCommitId = args[optionPosition + 1];
                 
                 return vcsCommitId;
