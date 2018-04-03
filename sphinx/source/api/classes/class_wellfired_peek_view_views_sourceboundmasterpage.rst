@@ -44,17 +44,9 @@ Breakdown
 
 - readonly BindableProperty **SourceProperty** 
 
-    **Description**
-
-        When providing a backing store, the Source can be bound to to define what should be displayed in the Detail Page. This is used in conjunction with the Template to define what should be displayed in the Detail :ref:`View<namespacewellfired_peek_view>`. 
-
 .. _classwellfired_peek_view_views_sourceboundmasterpage_1adec421faba455dc625a51f7378539830:
 
 - readonly BindableProperty **TemplateProperty** 
-
-    **Description**
-
-        The templace is responsible for deciding what the view should render when the Source has changed. 
 
 .. _classwellfired_peek_view_views_sourceboundmasterpage_1a1d8d7148544093a5187853cbb446318a:
 
@@ -62,7 +54,7 @@ Breakdown
 
     **Description**
 
-        When providing a backing store, the Source can be bound to to define what should be displayed in the Detail Page. This is used in conjunction with the Template to define what should be displayed in the Detail :ref:`View<namespacewellfired_peek_view>`. 
+        When providing a backing store, the Source can be bound to define what should be displayed in the Detail Page. This is used in conjunction with the Template to define what should be displayed in the Detail :ref:`View<namespacewellfired_peek_view>`. 
 
 .. _classwellfired_peek_view_views_sourceboundmasterpage_1a3a4e45e841f79dc612a33b9e23490ca3:
 
