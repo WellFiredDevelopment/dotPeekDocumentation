@@ -33,6 +33,8 @@ Description
 +---------------------------+
 |FileHeaders                |
 +---------------------------+
+|StreamingAssets            |
++---------------------------+
 |Settings                   |
 +---------------------------+
 |IndividualBuildReport      |
