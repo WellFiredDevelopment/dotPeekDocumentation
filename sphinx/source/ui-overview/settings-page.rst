@@ -23,7 +23,7 @@ Automatically open
 Build reports location
    This is the location where reports are saved.
 
-   * |team| Relative paths are team shared. Therefore, if you input *"../BuildReports"* as report location, then all of your 
+   * Relative paths are team shared |team|. Therefore, if you input *"../BuildReports"* as report location, then all of your 
      team members will have their build reports saved in *[Unity Project]/../BuildReports*. 
    
    * Absolute path are personal, then it will not affect other team members reports location.
@@ -40,5 +40,15 @@ Track VCS version |team|
    Windows users may need to ensure these VCS are installed on the command line. Computers not supporting it will simply display
    **Commit Id** *unknow* no matter this option is enabled or not.
 
+Activate .Peek logs
+   This will activate logs when .Peek is running. This will decrease .Peek performances and should be activated only if necessary to debug an issue
+   you are meeting with .Peek.
+
+-----
+
+
+*Team icon on this page is provided for free by* `Icons8 <https://icons8.com/license>`_
+
 .. |team| image:: images/settings-page/team.png
    :align: bottom
+   :scale: 50%
