@@ -78,7 +78,7 @@ behaviour by :
         DotPeek.Storage.TeamOptions.PrebuildCallbackOrder = int.MinValue + 1;
         DotPeek.Storage.TeamOptions.PostbuildCallbackOrder = int.MaxValue - 1;
 
-4. Saving your changes to ensure .Peek can access updated settings :
+3. Saving your changes to ensure .Peek can access updated settings :
 
 .. code-block:: c#
 

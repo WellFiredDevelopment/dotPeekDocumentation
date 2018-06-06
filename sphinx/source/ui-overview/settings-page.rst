@@ -29,7 +29,7 @@ Build reports location
    * Absolute path are personal, then it will not affect other team members reports location.
      Note that if you indicate a location inside the Unity project, it will be automatically converted to a relative location.
 
-   .. tip:: Different Unity project can save their reports in the same folder. Indeed, .Peek will create a subfolder with 
+   .. tip:: Different Unity projects can save their reports in the same folder. Indeed, .Peek will create a subfolder with 
             the GUID it assigned to your Unity project. The GUID is a team shared setting.
 
 Track VCS version |team|
