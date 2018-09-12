@@ -3,7 +3,9 @@
 Used and Unused Assets
 ======================
 
-These two panels give you a detailed list of the assets included or not in your build. 
+These two panels give you a detailed list of the assets included or not in your build.
+
+.. tip:: You can click on any asset. If the asset is located in your project **Assets** folder, the asset will be selected in your project panel.
 
 .. image:: images/build-report-assets/assets.png
 
