@@ -35,7 +35,7 @@ Description
 +---------------------------+
 |StreamingAssets            |
 +---------------------------+
-|Settings                   |
+|SettingsVM                 |
 +---------------------------+
 |IndividualBuildReport      |
 +---------------------------+
