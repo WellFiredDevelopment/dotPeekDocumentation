@@ -53,6 +53,14 @@ Description
 +---------------------------+
 |HasBuildReport             |
 +---------------------------+
+|OverviewComparison         |
++---------------------------+
+|UsedAssetsComparison       |
++---------------------------+
+|UnusedAssetsComparison     |
++---------------------------+
+|BuildSettingsComparison    |
++---------------------------+
 |Added                      |
 +---------------------------+
 |Removed                    |
