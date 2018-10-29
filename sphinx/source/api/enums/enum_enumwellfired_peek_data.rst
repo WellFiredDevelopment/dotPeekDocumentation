@@ -53,6 +53,8 @@ Description
 +---------------------------+
 |HasBuildReport             |
 +---------------------------+
+|Loading                    |
++---------------------------+
 |OverviewComparison         |
 +---------------------------+
 |UsedAssetsComparison       |
