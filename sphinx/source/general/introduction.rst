@@ -18,9 +18,10 @@ the project.
 
 Here a list of the core features :
 
+* Provides a list of used and unused assets and their imported size for each builds.
 * Automatically generate and archive a build report each time a build is performed.
-* Provide a nice interface to quickly jump between build reports and compare the content of each build.
-* Provides a list of unused assets for each builds.
+* Provide a nice interface to quickly jump between build reports.
+* Selecting two build reports will automatically display a diff of what changed between the two builds.
 * Provide the possibility to share build reports on a VCS, or to save it in different location for each team member.
 * Possibility to run build generation silently or to totally shut it off.
 * Very responsive UI, even for projects with a large amount of assets, thanks to the usage of `.Guacamole <https://github.com/ArtOfSettling/.Guacamole>`_, 
