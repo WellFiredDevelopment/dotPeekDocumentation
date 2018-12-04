@@ -16,14 +16,14 @@ Description
 Public Methods
 ---------------
 
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`Launch<classwellfired_peek_application_unity_editor_windowlauncher_1af7b5023f703dc8ba953b70be4cef8b0d>` **(** string companyName, string applicationName, string applicationTitle **)**   |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`Launch<classwellfired_peek_application_unity_editor_windowlauncher_1af2d43cd730f61e0d21c821aba3743c42>` **(** string companyName, string applicationName, string applicationTitle, bool autoOpen = false **)**   |
++-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_peek_application_unity_editor_windowlauncher_1af7b5023f703dc8ba953b70be4cef8b0d:
+.. _classwellfired_peek_application_unity_editor_windowlauncher_1af2d43cd730f61e0d21c821aba3743c42:
 
-- void **Launch** **(** string companyName, string applicationName, string applicationTitle **)**
+- void **Launch** **(** string companyName, string applicationName, string applicationTitle, bool autoOpen = false **)**
 
