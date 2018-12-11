@@ -1,7 +1,7 @@
 .Peek Documentation
 ===================
 
-Welcome to the official documentation for .Peek, a Unity editor tool that allows you to automatically generate a report of 
+Welcome to the official documentation for `.Peek <https://wellfired.com/dotpeek/dotpeek/>`_, a Unity editor tool that allows you to automatically generate a report of 
 the used (and unused) assets in your builds, and keep an eye on the evolution of your project assets in a nicely integrated and 
 responsive interface.
 
