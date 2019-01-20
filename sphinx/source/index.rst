@@ -6,7 +6,7 @@ the used (and unused) assets in your builds, and keep an eye on the evolution of
 responsive interface.
 
 If you are reading the .pdf version of this documentation, you may find the online version easier to navigate. 
-It is accessible on `https://dotpeek-documentation.readthedocs.io/en/2018.2/ <https://dotpeek-documentation.readthedocs.io/en/2018.2/>`_.
+It is accessible on `https://dotpeek-documentation.readthedocs.io/en/2019.0/ <https://dotpeek-documentation.readthedocs.io/en/2019.0/>`_.
 
 We recommend you read the :ref:`doc_general_introduction` to get an overview of what this documentation
 has to offer.
